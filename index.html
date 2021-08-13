@@ -1,11 +1,10 @@
 <!doctype html>
 <html lang="fr">
-<html xmlns:og=”http://ogp.me/ns#”>
 <head>
     <meta charset="utf-8">
     <title>projet reservia</title>
     <!--favicon reservia dans title-->
-    <link rel="shortcut icon" href="/user/documents/openclassrooms/p2/projet2/projet2/images/logo/reservia.svg" type="image/x-svg">
+    <link rel="shortcut icon" href="images/logo/reservia.svg" type="image/x-svg">
        <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,28 +14,26 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!--pour taille apple iphone-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--og pour facebook referencement-->
-    <meta property="og:www.reservia.com" content="http://www.reservia.com" />
-    <meta property="og:" image logo reservia" content="http://www.reservia.com/reservia@3x.png" />
+</head>
+<body>
+    <header>
     <!--image du logo-->
     <img class="logo"
-         src="/user/documents/openclassrooms/p2/projet2/projet2/images/logo/reservia@3x.png"
+         src="images/logo/reservia@3x.png"
          alt="logo reservia le site de reservation prenium">
     <h1>trouver votre hébergement  pour des vacances de rêve</h1>
     <h2>en plein centre ville ou en pleine nature</h2>
     <nav>
         <ul>
-       <il>hebergements</il>
-       <il>activites</il>
-       <il>s'inscrire</il
+            <il>hebergements</il>
+           <il>activites</il>
+            <il>s'inscrire</il>
        </ul>
     </nav>
-</head>
-<body>
+<class="Search"> 
     <!--image picto map-->
-    <img class="pictomap"
-     src="/lien via fontasome"
-     alt="point information localisation determiner par un rond fléché">
+        <i class="fas fa-map-marker-alt"></i>
+     <!--"point information localisation determiner par un rond fléché"-->
     <!--premiere section formulaire avec 3 filtres recherche -->
 <form>
     <label for="recherche"></label>
@@ -44,38 +41,44 @@
            aria-label="Search through site content">
     
     <button>recherche</button>
+</class>
 <!--filtres dans le formulaire-->
 </form>
-<img class="i"
-     src="/lien via fontasome"
-     alt="point information determiner par un i">
+
+
+     <i class="fas fa-info-circle"></i>
+     <!--"point information determiner par un i"-->
+     <h3>plus de 500 logements sont disponible dans cette ville</h3>
      <!--filtres avec picto -->
      <p><strong>Filtres</strong></p>
      <ul>
     <img class="eco" src="source fontawsome" alt="billet">
-    <il><a href="https://reservia.com/economique">économique</a></il>
+    <li><a href="https://reservia.com/economique">économique</a></li>
        <br>
      <img class="famille" src="source fontawsome" alt="human">
-     <il><a href="https://reservia.com/familial">Familial</a></il>
+     <li><a href="https://reservia.com/familial">Familial</a></li>
 <br>
      <img class="romantique" src="source fontawsome" alt="coeur"> 
-     <il><a href="https://reservia.com/romantique">Romantique</a></il>
+     <li><a href="https://reservia.com/romantique">Romantique</a></li>
 <br>
      <img class="animaux" src="source fontawsome" alt="chien">
-     <il><a href="https://reservia.com/animaux autorisés">Animaux autorisés</a></il>
+     <li><a href="https://reservia.com/animaux autorisés">Animaux autorisés</a></li>
     <br>
     </ul>
-<h3>plus de 500 logements sont disponible dans cette ville</h3>
-<section class="hebergement">
+</header>
+
+
+<section id="hebergement">
 <!--section hebdomadaire-->
 <h3>hebergement à marseille</h3>
 <ul>
     <!--canebiere-->
-    <img class="canebiereimg"
-     src="/dossier projet2"
-     alt="photo de lauberge de la canebiere">
-<class="caneb"></class><br>
-    <il>auberge de la canebiere</il>
+    <figure>
+        <img class="canebiereimg" src="images/hebergements/3_medium/cannebiere.jpg"
+             alt="photo de lauberge de la cannebiere">
+        <figcaption>photo de lauberge de la cannebiere</figcaption>
+    </figure>
+    <h4>Auberge de la cannebière</h4>
     <p>nuit à partir de 25€</p>
     <img class="bleustar"
      src="/fontawsome"
@@ -156,6 +159,7 @@
      <br>
      <a href="https://catalogue-logements.com"><strong>afficher plus</strong></a>
 </section>
+
 <aside>
 <!--les plus populaires-->
 <h3>les plus populaires <img src="picto graph +" alt="picto fontawesome"> </h3>
