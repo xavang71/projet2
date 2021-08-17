@@ -22,50 +22,47 @@
     <img class="logo"
          src="images/logo/reservia.svg"
          alt="logo reservia le site de reservation prenium">
-     <nav id="navig">
-     <ul>    
-     <li>hebergements</li>
-     <li>activites</li>
-    <li>s'inscrire</li>
-     </ul>
+     <nav id="navig">  
+         <!--definir l ancre -->
+        <div><a name="hebergements"></a>hebergements</div>
+        <div>activites</div>
+        <div>s'inscrire</div> 
     </nav>    
 </div>   
     <h1>trouver votre hébergement  pour des vacances de rêve</h1>
     <h2>en plein centre ville ou en pleine nature</h2>
    
 <class="Search"> 
-    <!--image picto map-->
-        <i class="fas fa-map-marker-alt"></i>
+    <!--image picto map-->  
      <!--"point information localisation determiner par un rond fléché"-->
     <!--premiere section formulaire avec 3 filtres recherche -->
 <form>
+    <i class="fas fa-map-marker-alt"></i>
     <label for="recherche"></label>
     <input type="recherche" id="recherche" name="q"
            aria-label="Search through site content">
-    
     <button>recherche</button>
 </class>
 <!--filtres dans le formulaire-->
-</form>
-
-
-     <i class="fas fa-info-circle"></i>
+</form>  
      <!--"point information determiner par un i"-->
-     <h3>plus de 500 logements sont disponible dans cette ville</h3>
+     <h3> <i class="fas fa-info-circle"></i>plus de 500 logements sont disponible dans cette ville</h3>
      <!--filtres avec picto -->
      <p><strong>Filtres</strong></p>
      <ul>
-    <img class="eco" src="source fontawsome" alt="billet">
-    <li><a href="https://reservia.com/economique">économique</a></li>
+    <li><i class="fas fa-money-bill-wave"></i><a href="https://reservia.com/economique">économique</a></li>
        <br>
-     <img class="famille" src="source fontawsome" alt="human">
-     <li><a href="https://reservia.com/familial">Familial</a></li>
+     <div class="famille" > 
+     <li><i class="fas fa-child"></i><a href="https://reservia.com/familial">Familial</a></li>
+    </div>
 <br>
-     <img class="romantique" src="source fontawsome" alt="coeur"> 
-     <li><a href="https://reservia.com/romantique">Romantique</a></li>
+     <div class="romantique" > 
+     <li><i class="fas fa-heart"></i><a href="https://reservia.com/romantique">Romantique</a></li>
+    </div>
 <br>
-     <img class="animaux" src="source fontawsome" alt="chien">
-     <li><a href="https://reservia.com/animaux autorisés">Animaux autorisés</a></li>
+     <div class="animaux" >
+     <li><i class="fas fa-dog"></i><a href="https://reservia.com/animaux autorisés">Animaux autorisés</a></li>
+    </div>
     <br>
     </ul>
 </header>
@@ -83,12 +80,9 @@
     </figure>
     <h4>Auberge de la cannebière</h4>
     <p>nuit à partir de 25€</p>
-    <img class="bleustar"
-     src="/fontawsome"
-     alt="etoile bleu de qualité">
-     <img class="grisstar"
-     src="/fontawsome"
-     alt="etoile grise de qualité">
+        <div class="bluestar"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <class="grisstar"><i class="fas fa-star"></i></div>
+        <!--bleustar/fontawsome"/etoile bleu de qualité-->
+        <!--"etoile grise de qualité"-->
      <br>
      <!--hotel du port-->
      <im class="port"
