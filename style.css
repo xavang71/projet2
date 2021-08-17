@@ -1,12 +1,37 @@
-body{
-    width:90%;
-    margin:auto;
-    min-width:600px;
-    max-width:2000px;
-    font-family: 'raleway',sans-serif;
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'raleway',arial,sans-serif;
+}
+body{   
+}
+ul {
+    list-style-type: none;
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    }
+
+.head1{
+    display: flex;
+}
+.logo{
+    margin: 10px 5px 10px 5px;
+    border-width: 010px 5px 10px 5px;
+    border-color: black;
+    
+}
+#navig {
+    margin:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+      
 }
 #hebergement {
-
+f
 
 }
 
@@ -23,6 +48,9 @@ img {
     max-width: 220px;
     max-height: 150px;
 }
+.bluestar{
+    color: blue;
+}
 
 figcaption {
     background-color: #222;
@@ -31,5 +59,17 @@ figcaption {
     padding: 3px;
     text-align: center;
     display: none;
+}
+/*test pour alignement du texte dans footer */
+.propos{
+    margin: auto;
+    padding-left: 50%;
+    display: flex;
+    
+
+}
+footer {
+    display: flex;
+    text-align: center;
 }
 
