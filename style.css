@@ -4,7 +4,6 @@
 body{  
     margin-top:1em;
     
-    
 }
 ul {
     list-style-type: none;
@@ -13,14 +12,35 @@ ul {
     justify-content: space-around;
     align-items: baseline;
     }
+.econo{
+    border: solid;
+    border-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    width: 10em;
+    height: 2em;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.fasmoney{
+    border:solid;
+    border-color: tomato;
+    border-radius: 1em 1em 1em 1em;
+    width: 0,5em;
+    height:0,5em;
+    color:teal;
+    display: flex;
+   
+    align-items: flex-start;
+}
 
 .head1{
     display: flex;
 }
 .logo{
-    margin: 10px 5px 10px 5px;
-    border-width: 010px 5px 10px 5px;
-    border-color: black;
+    
     
 }
 #navig {
@@ -32,14 +52,55 @@ ul {
       
 }
 #hebergement {
-f
+    width: 100%;
+    height: 50%;
+background-color: #F2F2F2;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 
 }
+.canne{
+    width:20%;
+    height:10%;
+    border-radius: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.canebiereimg{
+border-radius: 1em 1em 0em 0em;
+}
 
+.porthot{
+    width:20%;
+    height:10%;
+    border-radius: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.hotelduportimg{
+border-radius: 1em 1em 0em 0em;
+}
+
+
+/* couleur picto star grise*/
+.grisstar{
+    color:grey;
+    display: flex;
+    flex-direction: row;
+
+}
 figure {
-    border: thin #c0c0c0 solid;
+    border:none;
     display: flex;
     flex-flow: column;
+    /* combinaison de flex-direction et flex-wrap */
     padding: 5px;
     max-width: 220px;
     margin: auto;
@@ -54,11 +115,11 @@ img {
 }
 
 figcaption {
-    background-color: #222;
-    color: #fff;
-    font: italic smaller sans-serif;
+    
+    background-color: ;
+    color:;
     padding: 3px;
-    text-align: center;
+    text-align: ;
     display: none;
 }
 /*test pour alignement du texte dans footer */
