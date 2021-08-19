@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="fr">
-<html xmlns:og=”http://ogp.me/ns#”>
 <head>
     <meta charset="utf-8">
     <title>projet reservia</title>
+    <!--favicon reservia dans title-->
+    <link rel="shortcut icon" href="images/logo/reservia.svg" type="image/x-svg">
        <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,200 +14,267 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!--pour taille apple iphone-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--og pour facebook referencement-->
-    <meta property="og:www.reservia.com" content="http://www.reservia.com" />
-    <meta property="og:" image logo reservia" content="http://www.reservia.com/reservia@3x.png" />
-    <!--image du logo-->
-    <img class="logo"
-         src="/projet2/projet2-reservia/images/logo/reservia@3x.png"
-         alt="logo reservia le site de reservation prenium">
-    <h1>trouver votre hébergement  pour des vacances de rêve</h1>
-    <h2>en plein centre ville ou en pleine nature</h2>
-    <nav>
-        <ul>
-       <il>hebergements</il>
-       <il>activites</il>
-       <il>s'inscrire</il>
-        </ul>
-    </nav>
 </head>
 <body>
-    <!--image picto map-->
-    <img class="pictomap"
-     src="/lien via fontasome"
-     alt="point information localisation determiner par un rond fléché">
+    <header>
+<div class="head1">   
+    <!--image du logo-->
+    <img class="logo"
+         src="images/logo/reservia.svg"
+         alt="logo reservia le site de reservation prenium">
+     <nav id="navig">  
+         <!--definir l ancre -->
+        <div><a name="hebergements"></a>hebergements</div>
+        <div>activites</div>
+        <div>s'inscrire</div> 
+    </nav>    
+</div>   
+    <h1>trouver votre hébergement  pour des vacances de rêve</h1>
+    <p>en plein centre ville ou en pleine nature</p>
+   
+<class="Search"> 
+    <!--image picto map-->  
+     <!--"point information localisation determiner par un rond fléché"-->
     <!--premiere section formulaire avec 3 filtres recherche -->
 <form>
-    <label for="recherche">Search the site:</label>
+    <i class="fas fa-map-marker-alt"></i>
+    <label for="recherche"></label>
     <input type="recherche" id="recherche" name="q"
            aria-label="Search through site content">
-    
     <button>recherche</button>
+</class>
 <!--filtres dans le formulaire-->
-</form>
-<img class="i"
-     src="/lien via fontasome"
-     alt="point information determiner par un i">
-<h3>plus de 500 logements sont disponible dans cette ville</h3>
-<section>
-<!--section hebdomadaire-->
-<h3>hebergement à marseille</h3>
-<ul>
-    <!--canebiere-->
-    <img class="canebiereimg"
-     src="/dossier projet2"
-     alt="photo de lauberge de la canebiere">
-<class="caneb"></class><br>
-    <il>auberge de la canebiere</il>
-    <p>nuit à partir de 25€</p>
-    <img class="bleustar"
-     src="/fontawsome"
-     alt="etoile bleu de qualité">
-     <img class="grisstar"
-     src="/fontawsome"
-     alt="etoile grise de qualité">
-     <br>
-     <p>  </p>
-     <!--hotel du port-->
-     <img class="port"
-     src="/dossier projet2"
-     alt="photo de hotel du port">
-<class="port"></class><br>
-    <il>hôtel du port</il>
-    <p>nuit à partir de 52€</p>
-    <img class="bleustar"
-     src="/fontawsome"
-     alt="etoile bleu de qualité">
-     <img class="grisstar"
-     src="/fontawsome"
-     alt="etoile grise de qualité">
+</form>  
+     <!--"point information determiner par un i"-->
+     <h3> <i class="fas fa-info-circle"></i>plus de 500 logements sont disponible dans cette ville</h3>
+     <!--filtres avec picto -->
+     <p><strong>Filtres</strong></p>
+ <ul>
+         <div class="econo">
+    <li><div class="fasmoney"><i class="fas fa-money-bill-wave"></i></div><a href="https://reservia.com/economique">économique</a></li>
+        </div>  
 <br>
-<p>  </p>
+         <div class="famille" > 
+     <li><i class="fas fa-child"></i><a href="https://reservia.com/familial">Familial</a></li>
+        </div>
+<br>
+         <div class="romantique" > 
+     <li><i class="fas fa-heart"></i><a href="https://reservia.com/romantique">Romantique</a></li>
+        </div>
+<br>
+         <div class="animaux" >
+     <li><i class="fas fa-dog"></i><a href="https://reservia.com/animaux autorisés">Animaux autorisés</a></li>
+        </div>
+<br>
+ </ul>
+</header>
+
+
+<section id="heb">
+<!--section hebergement-->
+<h3>hebergement à marseille</h3>
+<article id="hebergement">
+    <div class="canne">
+    <!--canebiere-->
+    <figure>
+        <img class="canebiereimg" src="images/hebergements/3_medium/cannebiere.jpg"
+             alt="photo de lauberge de la cannebiere">
+        <figcaption>photo de lauberge de la cannebiere</figcaption>
+    </figure>
+    <div>
+    <h4>Auberge de la cannebière</h4>
+    <p>nuit à partir de 25€</p>
+        <div class="bluestar"><i class="fas fa-star"></i>
+             <i class="fas fa-star"></i> 
+             <i class="fas fa-star"></i> 
+             <i class="fas fa-star"></i> 
+         <div class="grisstar"><i class="fas fa-star"></i>
+            </div>
+            </div>
+        <!--bleustar/etoile bleu de qualité-->
+        <!--"etoile grise de qualité"-->
+    </div>   
+    </div>  
+    <div class="porthot">
+     <!--hotel du port-->
+     <figure>
+        <img class="hotelduportimg" src="images/hebergements/3_medium/hotelduport.jpg"
+             alt="photo de l hotel du port">
+        <figcaption>photo de l'hotel du port</figcaption>
+    </figure>
+    <h4>hôtel du port</h4>
+    <p>nuit à partir de 52€</p>
+    <div class="bluestar"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <class="grisstar"><i class="fas fa-star"></i></div>
+        <!--bleustar/fontawsome"/etoile bleu de qualité-->
+        <!--"etoile grise de qualité"-->
+    </div>
+<br>
      <!--hotel les mouettes-->
-     <img class="mouette"
-     src="/dossier projet2"
-     alt="photo de hotel les mouettes">
-<class="port"></class><br>
-    <il>hôtel les mouettes</il>
+     <figure>
+        <img class="hotellesmouetts" src="images/hebergements/3_medium/hotellesmouettes.jpg"
+             alt="photo de l hotel les mouettes">
+        <figcaption>photo de l'hotel les mouettes</figcaption>
+    </figure>
+    <h4>hôtel les mouettes</h4>
     <p>nuit à partir de 76€</p>
-    <img class="bleustar"
-     src="/fontawsome"
-     alt="etoile bleu de qualité">
-     <img class="grisstar"
-     src="/fontawsome"
-     alt="etoile grise de qualité">
+    <div class="bluestar"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <class="grisstar"><i class="fas fa-star"></i></div>
+    <!--bleustar/fontawsome"/etoile bleu de qualité-->
+    <!--"etoile grise de qualité"-->
      <br>
      <!--hotel de la mer-->
-     <img class="mer"
-     src="/dossier projet2"
-     alt="photo de hotel du port">
-<class="port"></class><br>
-    <il>hôtel de la mer</il>
+     <figure>
+        <img class="hoteldelamer" src="images/hebergements/3_medium/hoteldelamer.jpg"
+             alt="photo de l hotel de la mer">
+        <figcaption>photo de l'hotel de la mer</figcaption>
+    </figure>
+    <h4>hôtel de la mer</h4>
     <p>nuit à partir de 46€</p>
-    <img class="bleustar"
-     src="/fontawsome"
-     alt="etoile bleu de qualité">
-     <img class="grisstar"
-     src="/fontawsome"
-     alt="etoile grise de qualité">
+    <div class="bluestar"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <class="grisstar"><i class="fas fa-star"></i></div>
+    <!--bleustar/fontawsome"/etoile bleu de qualité-->
+    <!--"etoile grise de qualité"-->
      <br>
      <!--auberge le panier-->
-     <img class="panier"
-     src="/dossier projet2"
-     alt="photo de auberge le panier">
-<class="port"></class><br>
-    <il>auberge le panier</il>
+     <figure>
+        <img class="aubergelepanier" src="images/hebergements/3_medium/aubergelepanier.jpg"
+             alt="photo de l auberge le panier">
+        <figcaption>photo de l'auberge le panier</figcaption>
+    </figure>
+    <h4>auberge le panier</h4>
     <p>nuit à partir de 23€</p>
-    <img class="bleustar"
-     src="/fontawsome"
-     alt="etoile bleu de qualité">
-     <img class="grisstar"
-     src="/fontawsome"
-     alt="etoile grise de qualité">
+    <div class="bluestar"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <class="grisstar"><i class="fas fa-star"></i></div>
+    <!--bleustar/fontawsome"/etoile bleu de qualité-->
+    <!--"etoile grise de qualité"-->
      <br>
      <!--hotel chez amina-->
-     <img class="amina"
-     src="/dossier projet2"
-     alt="photo de hotel chez amina">
-<class="amina"></class><br>
-    <il>hôtel chez amina</il>
+     <div class="amina">
+     <figure>
+        <img class="chezamina" src="images/hebergements/3_medium/hotelchezamina.jpg"
+             alt="photo de l hotel chez amina">
+        <figcaption>photo de l'hotel chez amina</figcaption>
+    </figure>
+    <h4>hôtel chez amina</h4>
     <p>nuit à partir de 96€</p>
-    <img class="bleustar"
-     src="/fontawsome"
-     alt="etoile bleu de qualité">
-     <img class="grisstar"
-     src="/fontawsome"
-     alt="etoile grise de qualité">
+    <div class="bluestar"><i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+        <i class="fas fa-star"></i> 
+    <div class="grisstar"><i class="fas fa-star"></i>
+    </div>
+        <!--bleustar/fontawsome"/etoile bleu de qualité-->
+        <!--"etoile grise de qualité"-->
+    </div>   
      <br>
      <a href="https://catalogue-logements.com"><strong>afficher plus</strong></a>
+    </article>
+     
 </section>
-<section>
+
+<aside>
 <!--les plus populaires-->
-<h3>les plus populaires <img src="picto graph +" alt="picto fontawesome"> </h3>
+<h3>les plus populaires <i class="fas fa-chart-line"></i></h3>
 <br>
 <!--hotel soleil du matin-->
-<img class="soleil"
-src="/dossier projet2"
-alt="photo hotel soleil du matin">
+<figure>
+    <img class="hotelsoleilmatin" src="images/hebergements/3_medium/hotelsoleildumatin.jpg"
+         alt="photo de l hotel soleil du matin">
+    <figcaption>photo de l'hotel soleil du matin</figcaption>
+</figure>
 <class="soleil"></class><br>
-<il>hôtel soleil du matin</il>
+<h4>hôtel soleil du matin</h4>
 <p>nuit à partir de 128€</p>
-<img class="bleustar"
-src="/fontawsome"
-alt="etoile bleu de qualité">
-<img class="grisstar"
-src="/fontawsome"
-alt="etoile grise de qualité">
+<div class="bluestar"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <class="grisstar"><i class="fas fa-star"></i></div>
+<!--bleustar/fontawsome"/etoile bleu de qualité-->
+<!--"etoile grise de qualité"-->
+
 <br>
 <!--chambre d hote-->
-<img class="coeur"
-src="/dossier projet2"
-alt="photo chambre dhôte au coeur de l eau">
+<figure>
+    <img class="hotelaucoeurdeleau" src="images/hebergements/3_medium/aucoeurdeleau.jpg"
+         alt="photo de l hôtel au coeur de l'eau">
+    <figcaption>photo de l'hôtel au coeur de l'eau</figcaption>
+</figure>
 <class="coeur"></class><br>
-<il>au coeur de l'eau <br> chambres d'hôtes</il>
+<h4>au coeur de l'eau <br> chambres d'hôtes</h4>
 <p>nuit à partir de 71€</p>
-<img class="bleustar"
-src="/fontawsome"
-alt="etoile bleu de qualité">
-<img class="grisstar"
-src="/fontawsome"
-alt="etoile grise de qualité">
+<div class="bluestar"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <class="grisstar"><i class="fas fa-star"></i></div>
+<!--bleustar/fontawsome"/etoile bleu de qualité-->
+<!--"etoile grise de qualité"-->
 <br>
 <!--hotel tout bleu -->
-<img class="tout"
-src="/dossier projet2"
-alt="photo de hotel tout bleu et blanc">
+<figure>
+    <img class="hotel tout bleu et blanc" src="images/hebergements/3_medium/toutbleuetblanc.jpg"
+         alt="photo de l hôtel tout bleu et blanc">
+    <figcaption>photo de l'hôtel tout bleu et blanc</figcaption>
+</figure>
 <class="tout"></class><br>
-<il>hôtel tout bleu et blanc</il>
+<h4>hôtel tout bleu et blanc</h4>
 <p>nuit à partir de 68€</p>
-<img class="bleustar"
-src="/fontawsome"
-alt="etoile bleu de qualité">
-<img class="grisstar"
-src="/fontawsome"
-alt="etoile grise de qualité">
+<div class="bluestar"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <class="grisstar"><i class="fas fa-star"></i></div>
+<!--bleustar/fontawsome"/etoile bleu de qualité-->
+<!--"etoile grise de qualité"-->
 <br>
+</aside>
+
+<section class="activite">
+
+<h3>Activités à Marseille </h3>
+<div>
+    <br>
+    <img class="vieuxport" src="images/activites/3_medium/vieuxport.jpg"
+         alt="photo du vieux port de marseille">
+    <figcaption>photo de l'hôtel au coeur de l'eau</figcaption>
+     <br>
+    <h4><a href="reservia.com/vieuxport/">vieux port</a></h4>
+    <br>
+    <img class="fort" src="images/activites/3_medium/fortdepomegues.jpg"
+         alt="photo du fort de pomegues">
+    <figcaption>photo du fort de pomegues</figcaption>
+     <br>
+    <h4><a href="https://reservia.com/fortdepomegues/">Fort de Pomègues</a></h4>
+    <br>
+    <img class="iledefrioul" src="images/activites/3_medium/iledufrioul.jpg"
+    alt="photo de l'ile du Frioul">
+<figcaption>photo de l'ile du frioul</figcaption>
+    <br>
+   <h4><a href="https://reservia.com/iles de friou/">Iles de Frioul</a></h4>
+   <br>
+   <img class="parcdescalanques" src="images/activites/3_medium/parcnationaldesclanaques.jpg"
+         alt="photo du parc national des calanques">
+    <figcaption>photo de l'hôtel au coeur de l'eau</figcaption>
+     <br>
+    <h4><a href="https://parcnationaldescalanques/..." >Parc national des Calanques</a></h4>
+    <br>
+    <img class="notredame" src="images/activites/3_medium/notredamedelagarde.jpg"
+    alt="photo de notre dame de la garde">
+<figcaption>photo de notre dame de la garde</figcaption>
+     <br>
+    <h4><a href="https://notredamedelagarde/..." >Notre Dame de la Garde</a></h4>
+    <br>
+    <img class="parclongchamp" src="images/activites/3_medium/parclongchamps.jpg"
+         alt="photo du parc longchamp">
+    <figcaption>photo du parc longchamp</figcaption>
+     <br>
+    <h4><a href="https://parc de longchamp/..." >Parc de Longchamp</a></h4>
+    <br>
+</div>
 </section>
 
-<section>
-
-    <h3>Activités à Marseille </h3>
-</ul>
-</section>
-   
-
-   
-</body>
 <footer>
-<p>
+    <nav>
+    <p class="propos"><strong>A PROPOS</strong></p>
+        <div><a href="https:// /......">Fonctionement du site</a></div>
+        <div><a href="https//reservia/cgv">condition générale de vente</a></div>
+        <div><a href="https://reservia/rgpd">donnée et confidentialité</a></div>
 
+    <p><strong>Nos Hébergements</strong></p>
+        <div><a href="https://reservia/charte qualité">Charte Qualité</a></div>
+        <div><a href="https://reservia/devenir hôte">Soumettre votre hôtel</a></div>
 
-
-
-
-
-    
-</p>
+    <p><strong>Assistance</strong></p>
+        <div><a href="https://reservia/aide">Centre d'aide</a></div>
+        <div><a href="https://reservia/contact">Nous Contacter</a></div>  
+    </nav>
 </footer>
+</body>
 </html>
     
