@@ -1,47 +1,64 @@
 *{
     font-family: 'raleway',arial,sans-serif;
+    text-decoration:none ;
+    color:black ; 
 }
 body{  
     margin-top:1em;
+}
+header{
     
+    
+}
+
+/* creation de zone header car changement de dingue */
+.blulien{
+    /*tentative exception pour la couleur sur hebergement et sincrire*/
+    color:not;
 }
 ul {
     list-style-type: none;
     display:flex ;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: baseline;
+    align-items: stretch;
+    
     }
-.econo{
+li{
     border: solid;
     border-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
     width: 10em;
     height: 2em;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; 
     
+}
+econo{
+    border: solid;
+    border-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    width: 10em;
+    height: 2em;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
 }
 .fasmoney{
-    border:solid;
-    border-color: tomato;
-    border-radius: 1em 1em 1em 1em;
     width: 0,5em;
     height:0,5em;
     color:teal;
     display: flex;
-   
-    align-items: flex-start;
 }
+
 
 .head1{
     display: flex;
 }
 .logo{
-    
-    
+   
 }
 #navig {
     margin:5px;
@@ -92,8 +109,7 @@ border-radius: 1em 1em 0em 0em;
 /* couleur picto star grise*/
 .grisstar{
     color:grey;
-    display: flex;
-    flex-direction: row;
+  
 
 }
 figure {
