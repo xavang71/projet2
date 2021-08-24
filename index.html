@@ -16,23 +16,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <header>
-            <div class="head1">   
-            <!--image du logo-->
-                <img class="logo"
-                 src="images/logo/reservia.svg"
-                 alt="logo reservia le site de reservation prenium">
-             <nav id="navig">  
-             <!--definir l ancre -->
-                 <div class="blulien"><a href="#hebergement">Hébergements</a></div>
-                 <div><a href="#activites">Activités</a></div>
-                 <div class="blulien"><a href="https://reservia.com/inscription/">S'inscrire</a></div> 
-            </nav>    
-            </div>   
+        <main>
+    
+            <header>
+                <div class="head1">   
+                 <!--image du logo-->
+                 <img class="logo"
+                  src="images/logo/reservia.svg"
+                  alt="logo reservia le site de reservation prenium">
+                 <nav id="navig">  
+                   <!--definir l ancre -->
+                    <div class="blulien"><a href="#hebergement">Hébergements</a></div>
+                    <div><a href="#activites">Activités</a></div>
+                    <div class="blulienb"><a href="https://reservia.com/inscription/">S'inscrire</a></div> 
+                 </nav>    
+                </div>   
+            </header>
+
+        <section>
             <h1>trouver votre hébergement  pour des vacances de rêve</h1>
             <p>en plein centre ville ou en pleine nature</p>
    
-            <class="Search"> 
+            <div class="Search"> 
             <!--image picto map-->  
              <!--"point information localisation determiner par un rond fléché"-->
             <!--premiere section formulaire avec 3 filtres recherche -->
@@ -42,94 +47,115 @@
                     <input type="recherche" id="recherche" name="q"
                    aria-label="Search through site content">
                     <button>recherche</button>
-            </class>
+            
 <!--filtres dans le formulaire-->
                 </form>  
+            </div>   
+
      <!--"point information determiner par un i"-->
-         <h3> <i class="fas fa-info-circle"></i>plus de 500 logements sont disponible dans cette ville</h3>
+            <h3> <i class="fas fa-info-circle"></i>plus de 500 logements sont disponible dans cette ville</h3>
      <!--filtres avec picto -->
-         <p><strong>Filtres</strong></p>
-            <ul>
-            <div class="econo">
-            <li><div class="fasmoney"><i class="fas fa-money-bill-wave"></i></div><a href="https://reservia.com/economique">économique</a></li>
-            </div>  
+            <p><strong>Filtres</strong></p>
+            <ul class="fil">
+                <div class="econo">
+                    <li><div class="fasmoney"><i class="fas fa-money-bill-wave"></i></div><a href="https://reservia.com/economique">économique</a></li>
+                </div>  
 
-            <div class="famille" > 
-            <li><i class="fas fa-child"></i><a href="https://reservia.com/familial">Familial</a></li>
-            <div>
+                <div class="famille" > 
+                    <li><i class="fas fa-child"></i><a href="https://reservia.com/familial">Familial</a></li>
+                <div>
 
-            <div class="romantique" > 
-            <li><i class="fas fa-heart"></i><a href="https://reservia.com/romantique">Romantique</a></li>
+                <div class="romantique" > 
+                    <li><i class="fas fa-heart"></i><a href="https://reservia.com/romantique">Romantique</a></li>
+                </div>
+
+                <div class="animaux" >
+                    <li><i class="fas fa-dog"></i><a href="https://reservia.com/animaux autorisés">Animaux autorisés</a></li>
+            
             </div>
-
-            <div class="animaux" >
-            <li><i class="fas fa-dog"></i><a href="https://reservia.com/animaux autorisés">Animaux autorisés</a></li>
-            </div>
+            
             </ul>
-        </header>
+        
+        </section>
 
+        <section>
 
-    <section id="heb">
+            <div class="heb">
+
 <!--section hebergement-->
 <!--definir l ancre -->
-        <h3 id="hebergement">hebergement à marseille </h3>
-        <article >
-        <div class="canne">
+                <h3 id="hebergement">hebergement à marseille </h3>
+                <article >
+                    <div class="canne">
         <!--canebiere--> <!--tentative div pour grid-->
-            <figure>
-                <img class="canebiereimg" src="images/hebergements/3_medium/cannebiere.jpg"
-                 alt="photo de lauberge de la cannebiere">
-            <figcaption>photo de lauberge de la cannebiere</figcaption>
-            </figure>
-            <div>
-            <h4>Auberge de la cannebière</h4>
-            <p>nuit à partir de 25€</p>
-                <div class="bluestar"><i class="fas fa-star"></i>
-                 <i class="fas fa-star"></i> 
-                 <i class="fas fa-star"></i> 
-                 <i class="fas fa-star"></i> 
-                 <div class="grisstar"><i class="fas fa-star"></i>
-                </div>
-                </div>
+                         <figure>
+                             <img class="canebiereimg" src="images/hebergements/3_medium/cannebiere.jpg"
+                              alt="photo de lauberge de la cannebiere">
+                             <figcaption> <h4>Auberge de la cannebière</h4>
+                                <p>nuit à partir de 25€</p>
+                                <ul>
+                                    <li class="bluestar"><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li class="grisstar"><i class="fas fa-star"></i></li>
+                                </ul>
+                            </figcaption>
+                         </figure>
+                                   
                         <!--bleustar/etoile bleu de qualité-->
                         <!--"etoile grise de qualité"-->
-            </div>   
-        </div>  
+
         <div class="porthot">
      <!--hotel du port-->
             <figure>
                 <img class="hotelduportimg" src="images/hebergements/3_medium/hotelduport.jpg"
                  alt="photo de l hotel du port">
-                <figcaption>photo de l'hotel du port</figcaption>
-            </figure>
-            <h4>hôtel du port</h4>
-            <p>nuit à partir de 52€</p>
-                <div class="bluestar"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <class="grisstar"><i class="fas fa-star"></i></div>
+                <figcaption><h4>hôtel du port</h4>
+                    <p>nuit à partir de 52€</p>
+                        <p class="bluestar"><i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i> 
+                          <p class="grisstar"><i class="fas fa-star"></i></p>
+                        </figcaption>
+                    </figure>
+            
                     <!--bleustar/fontawsome"/etoile bleu de qualité-->
                     <!--"etoile grise de qualité"-->
-                </div>
 
+
+        <div class="mouettes">                  
     <!--hotel les mouettes-->
              <figure>
                 <img class="hotellesmouetts" src="images/hebergements/3_medium/hotellesmouettes.jpg"
                  alt="photo de l hotel les mouettes">
-                <figcaption>photo de l'hotel les mouettes</figcaption>
-            </figure>
-            <h4>hôtel les mouettes</h4>
-            <p>nuit à partir de 76€</p>
-                <div class="bluestar"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <class="grisstar"><i class="fas fa-star"></i></div>
+                <figcaption> <h4>hôtel les mouettes</h4>
+                    <p>nuit à partir de 76€</p>
+                        <p class="bluestar"><i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i> 
+                         <i class="fas fa-star"></i> 
+                         <p class="grisstar"><i class="fas fa-star"></i></p>
+                        </figcaption>
+                    </figure>
+           
                 <!--bleustar/fontawsome"/etoile bleu de qualité-->
                 <!--"etoile grise de qualité"-->
-     
+        
+        <div class="lamer">       
      <!--hotel de la mer-->
             <figure>
                <img class="hoteldelamer" src="images/hebergements/3_medium/hoteldelamer.jpg"
                 alt="photo de l hotel de la mer">
-               <figcaption>photo de l'hotel de la mer</figcaption>
+                    <figcaption><h4>hôtel de la mer</h4>
+                        <p>nuit à partir de 46€</p>
+                    <div class="bluestar"><i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                         <class="grisstar"><i class="fas fa-star"></i>
+                    </div>
+                    </figcaption>
             </figure>
-            <h4>hôtel de la mer</h4>
-            <p>nuit à partir de 46€</p>
-                <div class="bluestar"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <class="grisstar"><i class="fas fa-star"></i></div>
+            
                 <!--bleustar/fontawsome"/etoile bleu de qualité-->
                 <!--"etoile grise de qualité"-->
      
@@ -164,13 +190,14 @@
         <!--"etoile grise de qualité"-->
         </div>
 
-     
+    </div> 
+
      <a href="https://catalogue-logements.com"><strong>afficher plus</strong></a>
     </article>
      
-</section>
+    </section>
 
-<aside>
+    <aside>
         <!--les plus populaires-->
     <h3>les plus populaires <i class="fas fa-chart-line"></i></h3>
 
@@ -226,7 +253,7 @@
                     <!--bleustar/fontawsome"/etoile bleu de qualité-->
                     <!--"etoile grise de qualité"-->
 
-</aside>
+    </aside>
 
     <section class="activite">
             <!--definir l ancre -->
@@ -270,8 +297,8 @@
         <h4><a href="https://parc de longchamp/..." >Parc de Longchamp</a></h4>
     
         </div>
-</section>
-
+    </section>
+</main>
 <footer>
         <nav>
             <p class="propos"><strong>A PROPOS</strong></p>
@@ -290,4 +317,3 @@
 </footer>
 </body>
 </html>
- 
