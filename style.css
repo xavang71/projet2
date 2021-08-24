@@ -1,41 +1,58 @@
 *{
     font-family: 'raleway',arial,sans-serif;
     text-decoration:none ;
-    color:black ; 
-}
-body{  
-    margin-top:1em;
-}
-header{
-    
     
 }
 
-/* creation de zone header car changement de dingue */
-.blulien{
-    /*tentative exception pour la couleur sur hebergement et sincrire*/
-    color:not;
+body{  
+   
 }
-ul {
+main{
+    
+   margin-left:  30px;
+   margin-right: 30px;
+
+}
+
+.head1{
+    border: solid;
+    margin-top: 0,5%;
+    display: flex;
+}
+.logo{
+    
+    display:flex;
+    justify-content: flex-start;
+}
+
+#navig {
+    border:solid;
+    width:60% ;
+    margin: auto;
+    margin-right: -1px;
+    margin-left: 50%;
+    padding: auto;
+    display:flex;
+    align-items: center;
+   justify-content: space-between;
+/* tentative pour placer la nav */
+
+}
+.blulien{
+    color: blue;
+}
+.blulienb{
+
+}
+
+.fil {
     list-style-type: none;
-    display:flex ;
-    flex-direction: row;
+    display: flex ;
+    flex-direction:row ;
     align-items: stretch;
     
-    }
-li{
-    border: solid;
-    border-color: #F2F2F2;
-    border-radius: 20px 20px 20px 20px;
-    width: 10em;
-    height: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap; 
-    
 }
-econo{
+.econo{
     border: solid;
     border-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
@@ -46,27 +63,49 @@ econo{
     align-items: center;
     flex-wrap: nowrap;
 }
+.famille{
+    border: solid;
+    border-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    width: 10em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;  
+}
+.romantique{
+    border: solid;
+    border-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    width: 10em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.animaux{
+    border: solid;
+    border-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    width: 10em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; 
+}
 .fasmoney{
     width: 0,5em;
     height:0,5em;
     color:teal;
-    display: flex;
-}
-
-
-.head1{
-    display: flex;
-}
-.logo{
    
 }
-#navig {
-    margin:5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-      
+
+
+
+    
 }
 #hebergement {
     width: 100%;
@@ -131,12 +170,7 @@ img {
 }
 
 figcaption {
-    
-    background-color: ;
-    color:;
-    padding: 3px;
-    text-align: ;
-    display: none;
+  
 }
 /*test pour alignement du texte dans footer */
 .propos{
@@ -153,4 +187,3 @@ footer {
     flex-direction: row;
     align-content: stretch;
 }
-
