@@ -15,7 +15,7 @@ main{
 }
 
 .head1{
-    border: solid;
+
     margin-top: 0,5%;
     display: flex;
 }
@@ -26,7 +26,7 @@ main{
 }
 
 #navig {
-    border:solid;
+    
     width:60% ;
     margin: auto;
     margin-right: -1px;
@@ -38,12 +38,29 @@ main{
 /* tentative pour placer la nav */
 
 }
-.blulien{
-    color: blue;
+.blulien a {
+  
+    border-top: 5px solid #0065FC;
+    padding-top: 20px;
+    color: #0065FC;
+}
+.bluliena a {
+    color:black; 
 }
 .blulienb{
 
 }
+/* nav placé --- trop content */
+
+.colleheb{
+margin-top: 20px;
+line-height: 0px;
+}
+
+.search{
+border:solid;
+}
+
 
 .fil {
     list-style-type: none;
