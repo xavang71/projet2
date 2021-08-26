@@ -129,32 +129,11 @@ align-items: center;
 /* fini le bloc recherche */
 
 
-/* début bloc icone 500 logements */
-.cinqlog{
-border: solid;
-display: flex;
-flex-direction: row;
-}
-.iconcinq{
-    background:cornsilk;
-    border-radius:50%;
-    width: 30px;
-    height:30px;
-    border:4px solid #0065FC; 
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
 
-}
-.logcinq{
-border: solid;
-margin:1px;
-}
-/* fin icone 500 log*/
 
 /* debut filtres */
 .fil {
-    border:solid;
+    
     width: 60%;
     height: 40%;
     display: flex;
@@ -251,9 +230,7 @@ align-items: center;
     justify-content: center;
     align-items: flex-start;
     margin: auto;
-    
     padding:auto ;
-   
     }
 
 .fam{
@@ -263,21 +240,131 @@ align-items: center;
     align-items: center;
     margin-right:20px;
     }
-
+/* composant romantique*/
 .romantique{
     border: solid;
     border-color: #F2F2F2;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 10em;
+    height: 2em;
+    margin:1em;
+    margin-top: 0,8em;
+    margin-bottom:0,8em ;
+    padding-left:-10% ;
+    padding-right:-10% ;
+}
+.rondoneb{
+    border-radius: 50%;
+    border-color: #deebff;
+    background-color: #deebff;
+    width:2em;
+    height: 2em;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    margin-left: -4px;
+    padding: auto;
+
+}
+.coeur{
+    color: #0065FC;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    padding:auto ;
+}
+.roma{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     
 }
+/*composant animaux*/
 .animaux{
     border: solid;
     border-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 13em;
+    height: 2em;
+    margin:1em;
+    margin-top: 0,8em;
+    margin-bottom:0,8em ;
+    padding-left:-10% ;
+    padding-right:-10% ;
     
+}
+.rondonec{
+    border-radius: 50%;
+    border-color: #deebff;
+    background-color: #deebff;
+    width:2em;
+    height: 2em;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    margin-left: -3px;
+    padding: auto;
+
+}
+.dog{
+    color: #0065FC;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    padding:auto ;
+}
+.anim{
+    color:black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 6px;
 }
 
 /* fin de filtres */
+
+/* début bloc icone 500 logements */
+    .cinqlog{
+    
+    display: flex;
+    flex-direction: row;
+    }
+    .rondi{
+        background-color:white;
+        border-radius:50%;
+        width: 22px;
+        height:22px;
+        border:2px solid #f2f2f2; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconcinq{ 
+       color:#0065FC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .logcinq{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    padding: 5px;
+    }
+    /* fin icone 500 log*/
     
 }
 #hebergement {
