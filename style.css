@@ -129,68 +129,155 @@ align-items: center;
 /* fini le bloc recherche */
 
 
-/* début bloc filtres */
-
-.fil {
-    list-style-type: none;
-    display: flex ;
-    flex-direction:row ;
-    align-items: stretch;
-    
+/* début bloc icone 500 logements */
+.cinqlog{
+border: solid;
+display: flex;
+flex-direction: row;
 }
+.iconcinq{
+    background:cornsilk;
+    border-radius:50%;
+    width: 30px;
+    height:30px;
+    border:4px solid #0065FC; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.logcinq{
+border: solid;
+margin:1px;
+}
+/* fin icone 500 log*/
+
+/* debut filtres */
+.fil {
+    border:solid;
+    width: 60%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    align-items: flex-start;
+}
+
+.fasmoney{
+    width: 0,3em;
+    height:0,3em;
+    color:#0065FC;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin:auto;
+    }
+
+    /* rond pour les icones */
+
+    .rondone{
+    border-radius: 50%;
+    background-color: #deebff;
+    width:2em;
+    height: 2em;
+   display:flex;
+   justify-content: center;
+   align-items: flex-start;
+    }
+
 .econo{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
     border: solid;
     border-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
     width: 10em;
-    height: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
+    height: 2,5em;
+    margin:1em;
+    margin-top: 0,8em;
+    margin-bottom:0,8em ;
+   padding: -10%;
+    padding-left:-10% ;
+    padding-right:-10% ;
 }
+
+.texteco{
+   
+    color:black;
+    width: auto;
+padding-right: 1em;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
 .famille{
     border: solid;
     border-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
-    width: 10em;
-    height: 2em;
     display: flex;
     justify-content: center;
+    align-items: baseline;
+    width: 8em;
+    height: 2em;
+    margin:1em;
+    margin-top: 0,8em;
+    margin-bottom:0,8em ;
+    padding-left:-10% ;
+    padding-right:-10% ;
+    }
+    .rondonea{
+    border-radius: 50%;
+    border-color: #deebff;
+    background-color: #deebff;
+    width:2em;
+    height: 2em;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    margin-left: -5px;
+    padding: auto;
+    
+
+    }
+
+.ichild{
+    color: #0065FC;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    
+    padding:auto ;
+   
+    }
+
+.fam{
+    color:black;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
-    flex-wrap: nowrap;  
-}
+    margin-right:20px;
+    }
+
 .romantique{
     border: solid;
     border-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
-    width: 10em;
-    height: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
+    
 }
 .animaux{
     border: solid;
     border-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
-    width: 10em;
-    height: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap; 
-}
-.fasmoney{
-    width: 0,5em;
-    height:0,5em;
-    color:teal;
-   
+    
 }
 
-
-
+/* fin de filtres */
     
 }
 #hebergement {
