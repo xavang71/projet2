@@ -367,83 +367,162 @@ align-items: center;
     /* fin icone 500 log*/
     
 }
-#hebergement {
-    width: 100%;
-    height: 50%;
-background-color: #F2F2F2;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
 
+/* lancement du conteneur hebergements */
+
+#hebergement {
+background-color: grey;
 }
+
+figcaption{
+    font-size: 8px;
+    line-height: 0px;
+    
+}
+
+/*hotel de la cannebiere */
 .canne{
-    width:20%;
-    height:10%;
-    border-radius: 10%;
-    background-color: white;
-    display: flex;
+    border:solid;
+    border-color:#F2F2F2;
+    border-radius: 1em 1em 1em 1em;
+    width: 15em;
+    height: 12em;
+    display:flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    
 }
 .canebiereimg{
-border-radius: 1em 1em 0em 0em;
-}
+    border-radius: 1em 1em 0em 0em;
+    width: 145%;
+    height: 8em;
+    margin-top:-12px;
+   margin-left: -23%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    } 
 
-.porthot{
-    width:20%;
-    height:10%;
-    border-radius: 10%;
-    background-color: white;
+.textcana{
+    border:solid;
+    font-size: 80%;
+    line-height: 0px;
+    text-align: left;
+    margin-top: -10%;
+    margin-left:-10%;
+    padding: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }
+.stara{
+    width: 10em;
+    height: 10em;
+    margin-top:-20px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;  
+}
+
+/*hotel du port*/
+.porthot{
+border:solid;
+border-color:#F2F2F2;
+border-radius: 1em 1em 1em 1em;
+width: 15em;
+height: 12em;
+display:flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
 .hotelduportimg{
-border-radius: 1em 1em 0em 0em;
+   border-radius: 1em 1em 0em 0em;
+    width: 12em;
+    height: 8em;
+    margin-right: 5em;
+    margin-left: -1em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.textporta{
+    margin-top: -1em;
+}
+.starb{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+/* hotel les mouettes */
+.mouettes{
+    border:solid;
+}
+.hotmouetimg{
+    width: 10%;
+    height: 10%; 
 }
 
+/* hotel de la mer */
+.lamer{
+    border:solid;
+}
+.hotlamerimg{
+    width: 10%;
+height: 10%;
+}
 
-/* couleur picto star grise*/
+/* auber le panier*/
+.aubepanier{
+border:solid;
+}
+.lepanierimg{
+    width: 10%;
+    height: 10%;
+}
+/* chez amina*/
+.amina{
+border:solid;
+}
+.chezaminaimg{
+width: 10%;
+height: 10%;
+}
+
+/* couleur picto star */
 .grisstar{
-    color:grey;
-  
+color:grey; 
 
 }
-figure {
-    border:none;
-    display: flex;
-    flex-flow: column;
-    /* combinaison de flex-direction et flex-wrap */
-    padding: 5px;
-    max-width: 220px;
-    margin: auto;
-}
 
-img {
-    max-width: 220px;
-    max-height: 150px;
-}
 .bluestar{
-    color: blue;
+color: blue;
 }
 
-figcaption {
-  
-}
+
+
+/* finalisation hebergement */
 /*test pour alignement du texte dans footer */
-.propos{
-    margin: auto;
-    
-    display: flex;
-    
-
-}
 footer {
     background-color:#F2F2F2;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-content: stretch;
+    
+    }
+#foot{
+display: flex;
+flex-direction: row;
+    }
+
+.propos{
+   
+
 }
+.hebnavfoot{
+
+}
+.assit{
+
+}
+
