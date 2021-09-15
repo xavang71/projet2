@@ -360,6 +360,7 @@ align-items: stretch;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 10px;
     }
     .iconcinq{ 
        color:#0065FC;
@@ -370,18 +371,18 @@ align-items: stretch;
     }
     .logcinq{
    display: flex;
-   justify-content: center;
+   justify-content:center;
    align-items: center;
-    padding: 5px;
+   padding-left: 1%;
     }
-    /* fin icone 500 log*/
+/* fin icone 500 log*/
     
-}
+
 
 /* lancement du conteneur hebergements */
 
 #hebergement {
-background-color: grey;
+background-color:#F2F2F2;
 }
 
 figcaption{
