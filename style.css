@@ -150,6 +150,7 @@ align-items: center;
     height: 40%;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
    justify-content: space-between;
     align-items: flex-start;
 }
@@ -174,6 +175,7 @@ align-items: center;
     margin-top: 3px;
     display:flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: stretch;
     margin-top: 15%;
@@ -309,7 +311,7 @@ align-items: stretch;
     border-radius: 20px 20px 20px 20px;
     display: flex;
     justify-content: center;
-    align-items: baseline;
+   
     width: 13em;
     height: 2em;
     margin:1em;
@@ -326,6 +328,7 @@ align-items: stretch;
     width:2em;
     height: 2em;
     display:flex;
+    display: inline;
     justify-content: center;
     align-items: flex-start;
     margin: auto;
@@ -337,10 +340,9 @@ align-items: stretch;
 .anim{
     color:black;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-right: 6px;
+    flex-wrap: nowrap;
+
+    
 }
 
 /* fin de filtres */
@@ -380,9 +382,21 @@ align-items: stretch;
 
 
 /* lancement du conteneur hebergements */
+.heb{
+    margin: 1%;
+    padding: 1%;
+}
 
 #hebergement {
 background-color:#F2F2F2;
+width: 60%;
+height: 20%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+border-radius: 1em 1em 1em 1em;
+
 }
 
 figcaption{
@@ -392,19 +406,20 @@ figcaption{
 }
 
 /*hotel de la cannebiere */
-.canne{
+.context1{
+    background-color: white;
     border:solid;
-    border-color:#F2F2F2;
+    border-color:white;
     border-radius: 1em 1em 1em 1em;
     width: 15em;
     height: 12em;
-    display:flex;
+    display:flex;   
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 1%;
     
 }
-.canebiereimg{
+.contimg1{
     border-radius: 1em 1em 0em 0em;
     width: 145%;
     height: 8em;
@@ -415,7 +430,7 @@ figcaption{
     align-items: center;
     } 
 
-.textcana{
+.conttexte1{
     border:solid;
     font-size: 80%;
     line-height: 0px;
@@ -428,7 +443,7 @@ figcaption{
     justify-content: flex-start;
     align-items: flex-start;
 }
-.stara{
+.contstar1{
     width: 10em;
     height: 10em;
     margin-top:-20px;
@@ -438,70 +453,19 @@ figcaption{
 }
 
 /*hotel du port*/
-.porthot{
-border:solid;
-border-color:#F2F2F2;
-border-radius: 1em 1em 1em 1em;
-width: 15em;
-height: 12em;
-display:flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-}
 
-.hotelduportimg{
-   border-radius: 1em 1em 0em 0em;
-    width: 12em;
-    height: 8em;
-    margin-right: 5em;
-    margin-left: -1em;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.textporta{
-    margin-top: -1em;
-}
-.starb{
-    display:flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
+
 /* hotel les mouettes */
-.mouettes{
-    border:solid;
-}
-.hotmouetimg{
-    width: 10%;
-    height: 10%; 
-}
+
 
 /* hotel de la mer */
-.lamer{
-    border:solid;
-}
-.hotlamerimg{
-    width: 10%;
-height: 10%;
-}
+
 
 /* auber le panier*/
-.aubepanier{
-border:solid;
-}
-.lepanierimg{
-    width: 10%;
-    height: 10%;
-}
+
+
 /* chez amina*/
-.amina{
-border:solid;
-}
-.chezaminaimg{
-width: 10%;
-height: 10%;
-}
+
 
 /* couleur picto star */
 .grisstar{
@@ -513,16 +477,38 @@ color:grey;
 color: blue;
 }
 
-
-
 /* finalisation hebergement */
 
 /* ouverture les plus populaires */
 
 #pluspop{
     background-color: #F2F2F2;
+    width: 40%;
+    border-radius: 1em 1em 1em 1em;
+   
+   
 }
+.context2{
+   
+    border-color: white;
+    background-color: white;
+    border-radius: 1em 1em 1em 1em;
+    margin: 5%;
+    padding: 5%;
 
+}
+.contimg2{
+    width: 15%;
+    height: 6%;
+
+}
+.conttexte2{
+
+}
+.contstar2{
+
+
+}
 
 /*finalisation aside*/
 
