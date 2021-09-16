@@ -390,8 +390,10 @@ align-items: stretch;
 
 /* lancement du conteneur hebergements */
 .heb{
+    
+    width: auto;
+    height: 30px;
     margin: 1%;
-
     padding: 1%;
     
 }
@@ -425,15 +427,15 @@ figcaption{
     height: 12em;
     margin: 1%;
     display:flex;  
+    justify-content: space-around;
     align-items: stretch;
+    flex-wrap: wrap;
     
 }
 .contimg1{
     border-radius: 1em 1em 0em 0em;
-    width: 145%;
-    height: 8em;
-    margin-top:-12px;
-   margin-left: -23%;
+    width: 14em;
+    height: 7em;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -441,12 +443,7 @@ figcaption{
 
 .conttexte1{
     border:solid;
-    font-size: 80%;
-    line-height: 0px;
-    text-align: left;
-    margin-top: -10%;
-    margin-left:-10%;
-    padding: auto;
+   
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -455,7 +452,7 @@ figcaption{
 .contstar1{
     width: 10em;
     height: 10em;
-    margin-top:-20px;
+    
     display:flex;
     justify-content: flex-start;
     align-items: flex-start;  
