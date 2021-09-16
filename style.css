@@ -144,8 +144,6 @@ align-items: center;
    
 }
 .fil {
-    border:solid; color:black;
-    
     width: 70%;
     height: 40%;
     display: flex;
@@ -190,7 +188,7 @@ align-items: center;
     width: 0,3em;
     height:0,3em;
     color:#0065FC;
-    margin-right: 10%;
+    margin-right: 11%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -253,10 +251,9 @@ align-items: stretch;
     justify-content: center;
     align-items: flex-start;
     margin: auto;
-    margin-left: -5px;
+    margin-left:4%;
     padding: auto;
     
-
     }
 
 .fam{
@@ -265,6 +262,7 @@ align-items: stretch;
     justify-content: flex-end;
     align-items: center;
     margin-right:20px;
+    margin-left: 3px;
     }
 /* composant romantique*/
 .romantique{
@@ -292,7 +290,7 @@ align-items: stretch;
     justify-content: center;
     align-items: flex-start;
     margin: auto;
-    margin-left: -4px;
+    margin-left: -3px;
     padding: auto;
 
 }
@@ -301,7 +299,7 @@ align-items: stretch;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin-left:2px ;
     
 }
 /*composant animaux*/
@@ -347,6 +345,7 @@ align-items: stretch;
 
 /* fin de filtres */
 
+
 /* début bloc icone 500 logements */
     .cinqlog{
     
@@ -379,23 +378,34 @@ align-items: stretch;
     }
 /* fin icone 500 log*/
     
+/* premiere partie haute pour allignements des conteneurs */
+
+.prempart{
+
+    display: flex;
+   margin: auto;
+   padding: auto;
+}
 
 
 /* lancement du conteneur hebergements */
 .heb{
     margin: 1%;
+
     padding: 1%;
+    
 }
 
 #hebergement {
 background-color:#F2F2F2;
 width: 60%;
-height: 20%;
+height: 610px;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 
 border-radius: 1em 1em 1em 1em;
+margin-right: 1%;
 
 }
 
@@ -413,10 +423,9 @@ figcaption{
     border-radius: 1em 1em 1em 1em;
     width: 15em;
     height: 12em;
-    display:flex;   
-    flex-direction: column;
-    flex-wrap: wrap;
     margin: 1%;
+    display:flex;  
+    align-items: stretch;
     
 }
 .contimg1{
@@ -481,10 +490,21 @@ color: blue;
 
 /* ouverture les plus populaires */
 
+aside{
+    margin-left: 1%;
+
+}
+ 
+    
+
+
 #pluspop{
     background-color: #F2F2F2;
     width: 40%;
+    height: 610px;
     border-radius: 1em 1em 1em 1em;
+    display: flex;
+    
    
    
 }
@@ -493,6 +513,8 @@ color: blue;
     border-color: white;
     background-color: white;
     border-radius: 1em 1em 1em 1em;
+    width: 330px;
+    height: 140px;
     margin: 5%;
     padding: 5%;
 
