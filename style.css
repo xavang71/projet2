@@ -1,7 +1,6 @@
 *{
     font-family: 'raleway',arial,sans-serif;
-   text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 body{  
@@ -43,14 +42,22 @@ main{
     border-top: 5px solid #0065FC;
     padding-top: 20px;
     color: #0065FC;
+    
 }
-.bluliena a {
+.bluliena  a{
     color:black; 
 }
+.bluliena a:hover{
+    border-top: 5px solid #0065FC;
+    padding-top: 20px;
+    color: #0065FC;
+}
+
+
 .blulienb{
 
 }
-/* nav placé --- trop content */
+/* nav placée --- trop content */
 
 .colleheb{
 margin-top: 20px;
@@ -59,7 +66,6 @@ line-height: 0px;
 
 /* place à la recherche */
 .search{
-
 
 }
 
@@ -134,15 +140,18 @@ align-items: center;
 /* fini le bloc recherche */
 
 
-
-
 /* debut filtres */
 .filtext {
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center; 
+    color: black;
 }
+
+.filtext a:hover{
+    color:green;
+}
+
 .fil {
     width: 70%;
     height: 40%;
@@ -251,9 +260,12 @@ align-items: stretch;
     justify-content: center;
     align-items: flex-start;
     margin: auto;
-    margin-left:4%;
+    margin-left:1%;
     padding: auto;
     
+    }
+i.fas.fa-child { 
+    margin-right: 11PX; 
     }
 
 .fam{
@@ -378,14 +390,7 @@ align-items: stretch;
     }
 /* fin icone 500 log*/
     
-/* premiere partie haute pour allignements des conteneurs */
 
-.prempart{
-
-    display: flex;
-   margin: auto;
-   padding: auto;
-}
 
 
 /* lancement du conteneur hebergements */
@@ -402,13 +407,19 @@ align-items: stretch;
 background-color:#F2F2F2;
 width: 60%;
 height: 610px;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-
 border-radius: 1em 1em 1em 1em;
+padding:auto;
+padding-left: 2%;
 margin-right: 1%;
 
+}
+/*  pour allignements des conteneurs */
+.moveblock{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 
 figcaption{
@@ -483,6 +494,13 @@ color:grey;
 color: blue;
 }
 
+.afiplus{
+    color:black;
+    margin: 10% 0% 0% 1% ;
+    
+    
+}
+
 /* finalisation hebergement */
 
 /* ouverture les plus populaires */
@@ -537,7 +555,39 @@ aside{
 #activite{
     border:solid;
     border-color:red;
+    width: 1340px;
+    height: 600px;
+
 }
+/*vieux port */
+.portact{
+    border:solid;
+    border-color:black;
+    width: 50px;
+    height: 50px;
+}
+
+.vieuxport{
+    width: 50px;
+    height: 50px;
+}
+/* fort */
+.fortact{
+    border:solid;
+    border-color:black;
+    width: 50px;
+    height: 50px; 
+}
+.fort{
+    width: 50px;
+    height: 50px; 
+}
+
+/* iles */
+.ileact{
+
+}
+
 
 /*test pour alignement du texte dans footer */
 footer {
