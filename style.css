@@ -510,20 +510,22 @@ color: blue;
 
 /* finalisation hebergement */
 
+.globalhaut{
+    display: flex;
+   
+}
+
 /* ouverture les plus populaires */
 
 
 #pluspop{
 
     background-color: #F2F2F2;
-    width: 38%;
+    width: 40%;
     height: 580px;
-    margin-left: 1%;
+    margin-left:2%;
     border-radius: 1em 1em 1em 1em;
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-direction: column;
+    
     
    
 }
@@ -532,27 +534,36 @@ color: blue;
     border-color: white;
     background-color: white;
     border-radius: 1em 1em 1em 1em;
-    width: 330px;
-    height: 100px;
-    margin: 2%;
-    padding:2px;
+    width: 420px;
+    height: 140px;
+    margin: 5%;
+   
 
 
 }
 .contimg2{
-    width: 5em;
-    height: 6em;
+    width: 8em;
+    height: 8em;
+    margin-left: 1%;
+    margin-top: 3%;
+    
     border-radius: 1em 0% 0% 1em;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 
 }
 .conttexte2{
+   margin-top: 2%;
+   margin-left: 10%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: flex-end;
 
+}
+.fa-chart-line{
+padding-left: 2%;
 }
 .contstar2{
 display: flex;
@@ -568,6 +579,7 @@ justify-content: center;
 /* ouverture activité*/
 
 #activite{
+    margin-top: 20%;
     border:solid;
     border-color:red;
     width: 1340px;
