@@ -569,8 +569,7 @@ color: blue;
     margin-left: 10%;  
 }
 .contimg2{
-    border:solid;
-    border-color: black;
+    
     width: 8em;
     height: 8em;
     margin-left: 7px;
@@ -579,7 +578,7 @@ color: blue;
 }
 
 .asi{
-    border:solid;color:blueviolet;
+   
     width: 150%;
     height: 50%;
     margin-left: 2%;
