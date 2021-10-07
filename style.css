@@ -12,7 +12,7 @@ h3{
 h4{
     font-size: 200%;
     color:black;
-    line-height: 5%;
+    line-height: 16px;
    
 }
 
@@ -21,8 +21,8 @@ body{
 }
 main{
     
-   margin-left:  30px;
-   margin-right: 30px;
+   margin-left:  2%;
+   margin-right: 2%;
 
 }
 
@@ -416,6 +416,7 @@ i.fas.fa-child {
     width: auto;
     height: 30px;
     padding-top: 25px;
+    margin-left: 5%;
     margin-top: 1px;
     padding-left: 20px;
     margin-bottom: 1px;
@@ -425,7 +426,7 @@ i.fas.fa-child {
 
 #hebergement {
 background-color:#F2F2F2;
-width: 60%;
+width: 70%;
 height: 580px;
 border-radius: 1em 1em 1em 1em;
 
@@ -438,16 +439,17 @@ border-radius: 1em 1em 1em 1em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 5%;
     padding-bottom: 20px;
     
 
 }
 figure{
-    margin-top: %;
+   
     margin-left:auto ;
     margin-right: auto;
-    
 }
+
 
 figcaption{
     font-size: 8px;
@@ -464,7 +466,6 @@ figcaption{
     width: 14em;
     height: 11em;
     margin: 2%;
-    margin-top: px;
     display:flex;  
     justify-content: space-around;
     align-items: stretch;
@@ -475,17 +476,20 @@ figcaption{
     border-radius: 1em 1em 0em 0em;
     width: 13em;
     height: 7em;
-    margin-top: px;
+    margin-top: -5px;
+   
     padding: auto;
     display:flex;
     justify-content: flex-start;
     align-items: center;
-    } 
+    }
 
 .conttexte1{
     color:black;
     font-size: 130%;
+    line-height: -5px;
     margin-top: -10px;
+    padding-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -522,8 +526,8 @@ color: blue;
 .afiplus{
     color:black;
     margin: 10% 0% 0% 1% ;
+    margin-left: 6%;
     padding-left: 10px;
-    
     
 }
 
@@ -542,7 +546,7 @@ color: blue;
 }
 #pluspop{
     background-color: #F2F2F2;
-    width: 40%;
+    width: 32%;
     height: 580px;
     margin-left:2%;
     border-radius: 1em 1em 1em 1em;
@@ -554,18 +558,21 @@ color: blue;
     padding-left: 50px;
     margin-bottom: 1px;
     padding-bottom: auto;
+   
+
 }
 .fa-chart-line{
-    padding-left: 50%;
+    padding-left: 35%;
     }
 
 .context2{
     border-color: white;
     background-color: white;
     border-radius: 1em 1em 1em 1em;
-    width: 420px;
+    width: 340px;
     height: 145px;
     margin: 5%;
+    margin-top: -5px;
     margin-left: 10%;  
 }
 .contimg2{
@@ -588,9 +595,16 @@ color: blue;
     flex-direction: column;  
 }
 .conttexte2{
+    width:150px;
+    height:70px ;
     margin-top: -10%;
     color:black;
    padding-bottom: 5%;
+   display:flex;
+   flex-wrap: wrap;
+}
+.noche{
+    font-size: 13px;
 }
 
 .contstar2{
@@ -687,10 +701,11 @@ flex-direction: column;
     border-radius: 1em 1em 0em 0em;
     width: 100%;
     height: 180px;
-    
+    image-rendering: optimizeQuality;
 }
 .pom{
     margin-left: 4%;
+    
 }
 
 /* iles */
@@ -755,6 +770,7 @@ flex-direction: column;
     margin-top: -7%;
     width: 100%;
     height: 26em;
+    image-rendering: auto;
     
 }
 .cal{
@@ -830,16 +846,46 @@ align-items: flex-start;
 
 .propos{
     margin-top: 2%;
-    margin-left: 2%;
+    margin-left: 4%;
     
 
 }
+.propos a{
+    color:black;
+}
+.propos :hover{
+    color: #0065FC;
+}
+
 .hebnavfoot{
     margin-top: 2%;
-    margin-left:15%;
+    margin-left:18%;
 
 }
+.hebnavfoot a{
+    color: black;
+}
+.hebnavfoot :hover{
+    color: #0065FC;
+}
+
 .assit{
     margin-top: 2%; 
-    margin-left: 15%;
+    margin-left: 17%;
+}
+.assit a{
+    color:black;
+}
+
+.assit :hover{
+    color:#0065FC;
+}
+/* fin du css */
+
+
+/* debut mediaquery */
+/* pour celulaire */
+@media all and( max-width:768px) {
+
+    
 }
