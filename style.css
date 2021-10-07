@@ -885,7 +885,59 @@ align-items: flex-start;
 
 /* debut mediaquery */
 /* pour celulaire */
-@media all and( max-width:768px) {
 
-    
+
+@media( max-width:768px) {
+
+*{
+
+   padding-left: 2%;
+    margin-right: 20px;
 }
+    main{
+        width: 100%;
+     } 
+
+    .head1{
+        border:solid;
+        width: 768px;
+        height: 90px;
+        margin-top: 5%;
+        
+    }
+
+    .logo{
+        width: 25%%;
+        height: 5%;
+        display:flex;
+        justify-content: flex-start; 
+               
+    } 
+    #navig {
+        border:solid;
+        height: 40px;
+        margin-top:20px;
+        
+        padding: auto;
+        display:flex;
+        flex-wrap: wrap-reverse;
+        align-items: flex-end;
+        }
+
+    .bluelienb{
+        font-size: 150px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+
+
+
+
+
+
+}
+
+/* pour tablette */
+
+@media(min-width: 768px) and (max-width: 1388px)
