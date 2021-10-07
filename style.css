@@ -889,46 +889,168 @@ align-items: flex-start;
 
 @media( max-width:768px) {
 
-*{
 
-   padding-left: 2%;
-    margin-right: 20px;
-}
+    body{
+        width:90%;
+      
+    }
+
     main{
-        width: 100%;
+        width: 90%;
      } 
 
     .head1{
-        border:solid;
-        width: 768px;
+       
+        width: 90%;
         height: 90px;
         margin-top: 5%;
         
     }
 
     .logo{
-        width: 25%%;
-        height: 5%;
+        width: 105%;
+        height: 75%;
         display:flex;
         justify-content: flex-start; 
                
     } 
-    #navig {
-        border:solid;
-        height: 40px;
-        margin-top:20px;
-        
-        padding: auto;
+   
+
+    .blulienb{
+        margin-left: -70%;
+        font-size: 140%;
+        color: #0065FC;
+    }
+
+    .bluliena{
+        margin-top: 40%;
+        margin-left: -99%;
         display:flex;
-        flex-wrap: wrap-reverse;
-        align-items: flex-end;
+        align-items: flex-start;
+
+    }
+
+    .bluliena a {
+        
+        border-bottom: 2px solid #F2F2F2;
+        border-width: 150%;
+        padding-bottom: 3%;
+        
+    }
+
+
+    .blulien{
+        margin-left: -150%;
+        margin-top: 40%;
+        
+    }
+    .blulien a {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        border-width: 150%;
+        padding-bottom: 3%;
+        color: #0065FC;
         }
 
-    .bluelienb{
-        font-size: 150px;
-        display: flex;
-        justify-content: flex-end;
+    /* navig fini */
+
+   /*texte trouver hebergements */
+    .colleheb{
+      
+        width: 110%;
+        margin-top: 6%;
+        margin-left: 15%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        line-height: 120%;
+        }
+
+    /* place à la recherche */
+    .search{
+    margin-left: 50%;
+    display:flex;
+    align-items: center;
     }
+
+    form{
+    border:solid;
+    border-radius: 10px; 
+    border-color:#F2F2F2;
+    border-left: 0px;
+    border-right: 0em;
+    width: 80%;
+    height: 3em;
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+
+    }
+    .iconrech{
+
+    border-radius: 10px 0em 0em 10px;
+    border-color:#F2F2F2;
+    background-color: #f2f2f2;
+    width: 16%;
+    margin-left: 0em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+    ::placeholder{
+    
+    color: black;
+    font-weight: bold;
+    }
+
+    #recherche {
+    border:none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .barrech{
+    border-color: #F2F2F2;
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+
+    }
+    .textrech{
+        font-size: 0;
+        width: 110px;
+        height: 35px;
+        padding-bottom: 10px;
+        border-radius: 0px 10px 10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-color: #0065FC;
+    }
+    .textrech::before{
+        content: <i class="fas fa-search"></i> ;
+        color: white;
+    }
+      
+
+    .bouton{
+    border-radius: 0px 10px 10px 0Px;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+
+    /* fini le bloc recherche */
+
+
+    
+        
     
 
 
