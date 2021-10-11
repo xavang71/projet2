@@ -6,11 +6,14 @@ h2{
     font-size: 120%;
 }
 h3{
-    font-size: 150%;
+    font-size: 15px;
+    margin-top: 1%;
+    margin-bottom: -10px;
     color:black;
+   
 }
 h4{
-    font-size: 200%;
+    font-size: 15px;
     color:black;
     line-height: 16px;
    
@@ -43,7 +46,7 @@ main{
     margin: auto;
     margin-right: -1px;
     margin-left: 50%;
-    padding: auto;
+    
     display:flex;
     align-items: center;
    justify-content: space-between;
@@ -451,9 +454,9 @@ figure{
 }
 
 
-figcaption{
-    font-size: 8px;
-    line-height: 0px;
+figcaption{  
+    margin-left: 6px;
+    
     padding: auto;
 }
 /* tous les conteneurs hebergements*/
@@ -463,22 +466,21 @@ figcaption{
     border:solid;
     border-color:white;
     border-radius: 1em 1em 1em 1em;
-    width: 14em;
-    height: 11em;
+    width: 15em;
+    height: 12em;
     margin: 2%;
     display:flex;  
     justify-content: space-around;
     align-items: stretch;
     flex-wrap: wrap;
     
+    
 }
 .contimg1{
     border-radius: 1em 1em 0em 0em;
-    width: 13em;
-    height: 7em;
-    margin-top: -5px;
-   
-    padding: auto;
+    width: 15em;
+    height: 130px;
+    margin-top: -15px;
     display:flex;
     justify-content: flex-start;
     align-items: center;
@@ -487,9 +489,6 @@ figcaption{
 .conttexte1{
     color:black;
     font-size: 130%;
-    line-height: -5px;
-    margin-top: -10px;
-    padding-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -499,8 +498,8 @@ figcaption{
 .contstar1{
     width: 10em;
     height: 10em;
-    margin-top: -10px;
-    margin-bottom: 40px;
+    margin-top: -20px;
+    margin-bottom: 50px;
     display:flex;
     justify-content: flex-start;
     align-items: flex-start;  
@@ -515,11 +514,15 @@ figcaption{
 
 /* couleur picto star */
 .grisstar{
+    
+    font-size: 10px;
 color:grey; 
 
 }
 
 .bluestar{
+    
+    font-size: 10px;
 color: blue;
 }
 
@@ -573,7 +576,7 @@ color: blue;
     height: 145px;
     margin: 5%;
     margin-top: -5px;
-    margin-left: 10%;  
+    margin-left: 15%;  
 }
 .contimg2{
     
@@ -589,7 +592,7 @@ color: blue;
     width: 60%;
     height: 70%;
     margin-left: 2%;
-    margin-top: 5%;
+    margin-top: 2%;
     padding-top: 3%;
     display: flex;
     flex-direction: column;  
@@ -597,6 +600,7 @@ color: blue;
 .conttexte2{
     width:150px;
     height:70px ;
+
     margin-top: -10%;
     color:black;
    padding-bottom: 5%;
@@ -605,10 +609,15 @@ color: blue;
 }
 .noche{
     font-size: 13px;
+
+}
+.noche2{
+    font-size: 13px;
+    margin-top: -10%;
 }
 
 .contstar2{
-    margin-top: 10%;
+    margin-top: 15%;
     display: flex;
     flex-direction: row;
    
@@ -887,7 +896,7 @@ align-items: flex-start;
 /* pour celulaire */
 
 
-@media( max-width:768px) {
+@media (max-width:768px) {
 
 
     body{
@@ -912,18 +921,21 @@ align-items: flex-start;
         height: 75%;
         display:flex;
         justify-content: flex-start; 
+        align-items: flex-start;
                
     } 
    
 
     .blulienb{
-        margin-left: -70%;
+        margin-left: -20%;
         font-size: 140%;
         color: #0065FC;
+        display:flex;
+        align-items: flex-end;
     }
 
     .bluliena{
-        margin-top: 40%;
+        margin-top: 44%;
         margin-left: -99%;
         display:flex;
         align-items: flex-start;
@@ -959,7 +971,7 @@ align-items: flex-start;
       
         width: 110%;
         margin-top: 6%;
-        margin-left: 15%;
+        margin-left: 6%;
         display:flex;
         justify-content: center;
         align-items: center;
