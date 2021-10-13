@@ -19,9 +19,6 @@ h4{
    
 }
 
-body{  
-   
-}
 main{
     
    margin-left:  2%;
@@ -46,22 +43,22 @@ main{
     margin: auto;
     margin-right: -1px;
     margin-left: 50%;
-    
     display:flex;
     align-items: center;
    justify-content: space-between;
 /* tentative pour placer la nav */
 }
+
 .blulien a {
-  
     border-top: 5px solid #0065FC;
     padding-top: 20px;
-    color: #0065FC;
-    
+    color: #0065FC;  
 }
+
 .bluliena  a{
     color:black; 
 }
+
 .bluliena a:hover{
     border-top: 5px solid #0065FC;
     padding-top: 20px;
@@ -69,9 +66,9 @@ main{
 }
 
 
-.blulienb{
+/*.blulienb{
 
-}
+}*/
 /* nav placée --- trop content */
 
 .colleheb{
@@ -80,9 +77,9 @@ line-height: 0px;
 }
 
 /* place à la recherche */
-.search{
+/*.search{
 
-}
+}*/
 
 form{
 border:solid;
@@ -110,11 +107,11 @@ display:flex;
 justify-content: center;
 align-items: center;
 }
-::placeholder{
-   
+::placeholder{  
 color: black;
 font-weight: bold;
 }
+
 
 #recherche {
 border:none;
@@ -130,37 +127,38 @@ justify-content: center;
 align-items: stretch;
 
 }
+.bouton{
+    border-radius: 0px 10px 10px 0Px;
+    width: 110px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0065FC;
+}
+
 .textrech{
     color: white;
     font-weight: bold;
-    width: 110px;
-    height: 35px;
-    padding-bottom: 10px;
-    border-radius: 0px 10px 10px 0px;
+    border:none;
+    padding-bottom: 1%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     background-color: #0065FC;
 }
-
-.bouton{
-border-radius: 0px 10px 10px 0Px;
-width:50%;
-display: flex;
-justify-content: center;
-align-items: center;
 }
+
   
 
 /* fini le bloc recherche */
 
 
 /* debut filtres */
-.filtext {
 
+.filtext {
 margin-top: 28px;
 margin-left: 2px;
-
 }
 
 .fil {
@@ -201,12 +199,9 @@ margin-left: 2px;
     margin-right: -7em;
     padding-left:-10px;
     padding-right:-10px ;
-
-
 }
 
 .fasmoney{
-  
     width: 0,3em;
     height:0,3em;
     color:#0065FC;
@@ -215,7 +210,6 @@ margin-left: 2px;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    
     } 
 
 .econo{
@@ -247,7 +241,6 @@ width: auto;
 display: flex;
 justify-content: space-around;
 align-items: stretch;
-
 }
 
 /* bloc famille*/
@@ -270,6 +263,7 @@ align-items: stretch;
     .famille :hover {
         color:#0065FC;
     }
+
     .rondona{
 
     border-radius: 50%;
@@ -283,8 +277,8 @@ align-items: stretch;
     margin: auto;
     margin-left:1%;
     padding: auto;
-    
     }
+
 i.fas.fa-child { 
     margin-right: 11PX; 
     }
@@ -297,6 +291,7 @@ i.fas.fa-child {
     margin-right:20px;
     margin-left: 3px;
     }
+
 /* composant romantique*/
 .romantique{
     border: solid;
@@ -316,6 +311,7 @@ i.fas.fa-child {
 .romantique :hover {
     color:#0065FC;
 }
+
 .rondonb{
     border-radius: 50%;
     border-color: #deebff;
@@ -328,16 +324,16 @@ i.fas.fa-child {
     margin: auto;
     margin-left: -3px;
     padding: auto;
-
 }
+
 .roma{
     color:black;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left:2px ;
-    
+    margin-left:2px ;   
 }
+
 /*composant animaux*/
 .animaux{
     border: solid;
@@ -351,12 +347,12 @@ i.fas.fa-child {
     margin-top: 0,8em;
     margin-bottom:0,8em ;
     padding-left:-10% ;
-    padding-right:-10% ;
-    
+    padding-right:-10% ;   
 }
 .animaux :hover {
     color:#0065FC;
 }
+
 .rondonc{
     border-radius: 50%;
     border-color: #deebff;
@@ -434,10 +430,8 @@ background-color:#F2F2F2;
 width: 70%;
 height: 580px;
 border-radius: 1em 1em 1em 1em;
-
-
-
 }
+
 /*  pour alignements des conteneurs */
 .moveblock{
 
@@ -445,22 +439,19 @@ border-radius: 1em 1em 1em 1em;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 5%;
-    padding-bottom: 20px;
-    
-
+    padding-bottom: 20px; 
 }
+
 figure{
-   
     margin-left:auto ;
     margin-right: auto;
 }
 
-
 figcaption{  
     margin-left: 6px;
-    
     padding: auto;
 }
+
 /* tous les conteneurs hebergements*/
 
 .context1{
@@ -474,10 +465,9 @@ figcaption{
     display:flex;  
     justify-content: space-around;
     align-items: stretch;
-    flex-wrap: wrap;
-    
-    
-}
+    flex-wrap: wrap; 
+    }
+
 .contimg1{
     border-radius: 1em 1em 0em 0em;
     width: 15em;
@@ -515,22 +505,20 @@ figcaption{
 
 .noche{
     font-size: 13px;
-
 }
 
 /* couleur picto star */
 .grisstar{
-    
     font-size: 10px;
-color:grey; 
+    color:grey; 
 
 }
 
-.bluestar{
-    
+.bluestar{ 
     font-size: 10px;
-color: blue;
+    color: blue;
 }
+
 
 .afiplus{
     color:black;
@@ -541,9 +529,9 @@ color: blue;
 }
 
 .globalhaut{
-    display: flex;
-   
+    display: flex; 
 }
+
 /* finalisation hebergement */
 
 /* ouverture les plus populaires */
@@ -552,23 +540,23 @@ color: blue;
     display:flex;
     flex-direction: row;
 }
+
 #pluspop{
     background-color: #F2F2F2;
     width: 32%;
     height: 580px;
     margin-left:2%;
-    border-radius: 1em 1em 1em 1em;
-   
+    border-radius: 1em 1em 1em 1em; 
 }
+
 .poptext{
     padding-top: 25px;
     margin-top: 1px;
     padding-left: 50px;
     margin-bottom: 1px;
     padding-bottom: auto;
-   
-
 }
+
 .fa-chart-line{
     padding-left: 35%;
     }
@@ -581,13 +569,13 @@ color: blue;
     height: 145px;
     margin: 5%;
     margin-top: -5px;
-    margin-left: 15%;  
+    margin-left: 8%;  
 }
+
 .contimg2{
-    
     width: 8em;
     height: 8em;
-    margin-left: 7px;
+    margin-left: 1%;
     margin-top: 8px;
     border-radius: 1em 0% 0% 1em; 
 }
@@ -602,10 +590,10 @@ color: blue;
     display: flex;
     flex-direction: column;  
 }
+
 .conttexte2{
     width:150px;
     height:70px ;
-
     margin-top: -10%;
     color:black;
    padding-bottom: 5%;
@@ -656,16 +644,16 @@ color: blue;
     margin-top: 6%;
     margin-left: -14%;
     margin-right: 3%;
-display: flex;
-flex-direction: row;
-align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
 
 }
 /*conteneur interne 1 */
 .contint1{
     margin-left: 10%;
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 /*vieux port */
@@ -748,33 +736,29 @@ flex-direction: column;
 
 .context4{
     margin-left: 2%;
-margin-top: 6%;
-display: flex;
-flex-direction: row;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
 
 }
 
 /* conteneur interne 2 */
 
 .contint2{
-    margin-left: 10%;
-    
-display: flex;
-flex-direction: column;
+    margin-left: 10%;    
+    display: flex;
+    flex-direction: column;
 }
 
 /* parc des calanques*/
 .parcactiv{
-
     background-color: white;
     border:solid;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
     box-shadow: #F2F2F2;
     width: 20em;
-    height: 76%;
-     
-    
+    height: 76%; 
 }
 
 .parcdescalanques{
@@ -783,7 +767,6 @@ flex-direction: column;
     width: 100%;
     height: 26em;
     object-fit: cover;
-    
 }
 .cal{
     margin-left: 4%;
@@ -799,17 +782,16 @@ flex-direction: column;
     border-radius: 1em 1em 1em 1em;
     width: 18em;
     height: 40%;
-  
-    
 }
+
 .notredame{ 
     margin-top: -6%;
     border-radius: 1em 1em 0em 0em;
     width: 100%;
     height: 150px;
     object-fit: cover;
-   
 }
+
 .gard{
     margin-left: 4%;
 }
@@ -824,8 +806,6 @@ flex-direction: column;
     border-radius: 1em 1em 1em 1em;
     width: 18em;
     height: 50%;
-   
-
 }
    
 .parclongchamp{
@@ -834,7 +814,8 @@ flex-direction: column;
     width: 100%;
     height: 170px;
     object-fit: cover;
-}   
+}  
+
 .long{
     margin-left: 4%;
 }
@@ -903,13 +884,13 @@ align-items: flex-start;
 
 
     body{
-        width:100%;
+        width:auto;
         min-width: none;
       
     }
 
     main{
-        width: 100%;
+        width: auto;
         min-width: none;
      } 
 
@@ -924,6 +905,7 @@ align-items: flex-start;
     .logo{
         width: 95%;
         height: 55%;
+        margin-left: 2%;
         display:flex;
         justify-content: flex-start; 
         align-items: flex-start;
@@ -932,16 +914,18 @@ align-items: flex-start;
    
 
     .blulienb{
-        margin-left: -30%;
-        font-size: 140%;
+        margin-left: -140vh;
+        margin-top: -5vh;
+        font-size: 100%;
         color: #0065FC;
-        display:flex;
-        align-items: flex-end;
+        float: center;
+       
     }
 
+
     .bluliena{
-        margin-top: 44%;
-        margin-left: -99%;
+        margin-top: 11vh;
+        margin-left: -120vh;
         display:flex;
         align-items: flex-start;
 
@@ -950,22 +934,22 @@ align-items: flex-start;
     .bluliena a {
         
         border-bottom: 2px solid #F2F2F2;
-        border-width: 150%;
-        padding-bottom: 3%;
+        border-width: auto;
+        padding-bottom: 9%;
         
     }
 
 
     .blulien{
-        margin-left: -150%;
-        margin-top: 40%;
+        margin-left: -30vh;
+        margin-top: 10vh;
         
     }
     .blulien a {
         border-top: none;
         border-bottom: 2px solid #0065FC;
-        border-width: 150%;
-        padding-bottom: 3%;
+        border-width: auto;
+        padding-bottom: 8%;
         color: #0065FC;
         }
 
@@ -974,7 +958,7 @@ align-items: flex-start;
    /*texte trouver hebergements */
     .colleheb{
       
-        width: 110%;
+        width: auto;
         margin-top: 6%;
         margin-left: 6%;
         display:flex;
@@ -986,7 +970,7 @@ align-items: flex-start;
 
     /* place à la recherche */
     .search{
-    margin-left: 50%;
+    margin-left: 6vh;
     display:flex;
     align-items: center;
     }
@@ -997,7 +981,7 @@ align-items: flex-start;
     border-color:#F2F2F2;
     border-left: 0px;
     border-right: 0em;
-    width: 80%;
+    width: auto;
     height: 3em;
     display:flex;
     flex-direction: row;
@@ -1031,35 +1015,41 @@ align-items: flex-start;
 
     .barrech{
     border-color: #F2F2F2;
+
     display:flex;
     justify-content: center;
     align-items: stretch;
 
     }
-    .textrech{
-        font-size: 0;
-        width: 110px;
-        height: 35px;
+    /* display none pour recherche */
+    .bouton{
+        
+        width: 2,5rem;
+        height: 2,5rem;
         padding-bottom: 10px;
-        border-radius: 0px 10px 10px 0px;
+        border-radius: 10px 10px 10px 10px;
         display: flex;
         justify-content: center;
         align-items: flex-end;
         background-color: #0065FC;
+        }
+    .textrech{
+       display:none; 
+       color: white;
     }
-    .textrech::before{
+    /*
+    border-radius: 10px 10px 10px 10Px;
+        width:3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    .textrech:after{
         content: <i class="fas fa-search"></i> ;
         color: white;
-    }
+    }*/ 
       
 
-    .bouton{
-    border-radius: 0px 10px 10px 0Px;
-    width:50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
     
 
     /* fini le bloc recherche */
@@ -1077,8 +1067,8 @@ align-items: flex-start;
     /* bloc global haut */
 
     .globalhaut{
-        min-width: 320px;
-        width: 100%;
+        
+        width: auto;
         display: flex;
         flex-direction: column-reverse;
     }
@@ -1093,13 +1083,11 @@ align-items: flex-start;
 }
 #pluspop{
     background-color: #F2F2F2;
-    min-width: 320px;
-    width: 100%;
-    margin-left: -15px;
+    border-radius: 0px 0px 0px 0px;
+    width: auto;
     height: auto;
-    
-   
 }
+
 .poptext{
     padding-top: 25px;
     margin-top: 1px;
@@ -1117,12 +1105,12 @@ align-items: flex-start;
     border-color: white;
     background-color: white;
     border-radius: 1em 1em 1em 1em;
-    min-width: 320px;
-    width:100%;
+    min-width: 318px;
+    
     height: 145px;
     margin: 5%;
     margin-top: -5px;
-    margin-left: 15%;  
+    margin-left: 5%;  
 }
 .contimg2{
     
@@ -1181,13 +1169,13 @@ align-items: flex-start;
     
 }
 
-#hebergement {
+#hebergement{
 
-width: 100%;
-height: 580px;
-border-radius: 1em 1em 1em 1em;
-
-
+width: auto;
+height: auto;
+border-radius: 0%;
+background-color: #F7F9F9;
+margin-left: -5%;
 
 }
 /*  pour alignements des conteneurs */
@@ -1293,12 +1281,206 @@ color: blue;
 
 /* acitivité */
 
-.activite{
+#activite{
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
+    vertical-align: center;
+}
 
+/* text activités*/
+
+.activites{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;   
+}
+
+/*conteneur 1 global 1*/
+.context3{
+    width: auto;
+    height: auto;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+   
 
 }
+/*conteneur interne 1 */
+.contint1{ 
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*vieux port */
+.portact{
+    background-color: white;
+    border:solid;
+    border-color:#F2F2F2;
+    border-radius: 1em 1em 1em 1em;
+    box-shadow: #F2F2F2;
+    width: 15em;
+    height: 12em;
+}
+
+.vieuxport{
+    border-radius: 1em 1em 0em 0em;
+    width: 100%;
+    height: 20%; 
+    object-fit: cover;
+
+ }   
+ .vp{
+     margin-left: 4%;
+ }
+
+/* fort */
+.fortact{
+    background-color:white;
+    border:solid;
+    border-color:#F2F2F2;
+    border-radius: 1em 1em 1em 1em;
+    width: 19em;
+    height: 220px;
+    
+    
+    
+}
+.fort{
+    margin-top: -6%;
+    border-radius: 1em 1em 0em 0em;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+.pom{
+    margin-left: 4%;
+    margin-top:-2px;
+}
+
+
+/* iles */
+.ileact{
+    margin-top: 1%;
+    background-color:white;
+    border:solid;
+    border-color:#F2F2F2;
+    border-radius: 1em 1em 1em 1em;
+    width: 19em;
+    height: 11em;
+  
+   
+}
+
+.iledefrioul{
+    margin-top: 1%;
+    border-radius: 1em 1em 0em 0em;
+    width: 100%;
+    height: 8em;
+    object-fit: cover;
+}
+.frio{
+    margin-left: 4%;
+}
+
+
+/* conteneur ext 2 global */
+
+.context4{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+   
+}
+
+/* conteneur interne 2 */
+
+.contint2{
+
+    width: auto;
+    height: auto;    
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/* parc des calanques*/
+.parcactiv{
+    background-color: white;
+    border:solid;
+    border-color:#F2F2F2;
+    border-radius: 1em 1em 1em 1em;
+    box-shadow: #F2F2F2;
+    width: 18em;
+    height: 40%; 
+}
+
+.parcdescalanques{
+    border-radius: 1em 1em 0em 0em;
+    margin-top: 1%;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.cal{
+    margin-left: 4%;
+}
+
+
+/* notre dame */
+.dameact{
+    
+    background-color: white;
+    border:solid;
+    border-color:#F2F2F2;
+    border-radius: 1em 1em 1em 1em;
+    width: 18em;
+    height: 40%;
+}
+
+.notredame{ 
+    margin-top: 1%;
+    border-radius: 1em 1em 0em 0em;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.gard{
+    margin-left: 4%;
+}
+
+/* parc de longchamps */
+
+.longact{
+    margin-top: 1%;
+    background-color: white;
+    border:solid;
+    border-color:#F2F2F2;
+    border-radius: 1em 1em 1em 1em;
+    width: 18em;
+    height: 50%;
+}
+   
+.parclongchamp{
+    margin-top: 1%;
+    border-radius: 1em 1em 0em 0em;
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}  
+ 
+.long{
+    margin-left: 4%;
+}
+
+/* fin de section activité */
 
 
 
@@ -1306,16 +1488,27 @@ color: blue;
 
 #foot{
     background-color: #F2F2F2;
-    min-width: 320px;
-    width: 100%;
+    margin:0;
+    width: auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    
+}
+.propos{
+   margin-left: 12%; 
+}
+.hebnavfoot{
+   margin-right: 15%; 
+}
+.assit{
+    margin-bottom: 5%;
 }
 
     
         
     
-
+} /* fermer pour media cellulaire */
 
 
 
@@ -1325,4 +1518,8 @@ color: blue;
 
 /* pour tablette */
 
-@media(min-width: 768px) and (max-width: 1388px)
+@media(min-width: 768px) and (max-width: 1388px){
+
+
+
+} /* fermeture pour media tablette */
