@@ -890,6 +890,7 @@ align-items: flex-start;
     main{
         width: auto;
         min-width: none;
+        margin:none;
      } 
 
     .head1{
@@ -1036,19 +1037,14 @@ align-items: flex-start;
             position: relative;
     }
     .textrech:after{
-        font-family:"Font Awesome 5 Free"
+        content:"<i class="fas fa-search"></i>";
+        font-family:"Font Awesome 5 Free";
+        color: white;
         visibility: visible;
         position: absolute;
         top: 0;
-        left: 0;
-        content:"<i class="fas fa-search"></i>";
-        color: white;
-        
+        left: 0;   
     }
-
-    
-
-/* display inline a voir */ 
 
     /*.textrech:before{
         content:“rechercher“;
@@ -1309,6 +1305,8 @@ color: blue;
     width: auto;
     height: auto;
     margin-left: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
     display: flex;
     flex-direction: column;
    
@@ -1317,12 +1315,14 @@ color: blue;
 /*conteneur interne 1 */
 .contint1{ 
     width: auto;
+    margin-top:2% ;
+    margin-bottom:-5% ;
     display: flex;
     flex-direction: column;
 }
 
 /*vieux port */
-.portact{
+.portact {
     background-color: white;
     border:solid;
     border-color:#F2F2F2;
@@ -1332,15 +1332,15 @@ color: blue;
     height: 12em;
 }
 
-.vieuxport{
+.vieuxport {
     border-radius: 1em 1em 0em 0em;
     width: 100%;
-    height: 15%; 
+    height: 150px; 
     object-fit: cover;
-
  }   
  .vp{
      margin-left: 4%;
+     margin-bottom: 45%;
  }
 
 /* fort */
@@ -1349,17 +1349,15 @@ color: blue;
     border:solid;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 19em;
-    height: 220px;
-    
-    
-    
+    width: 17em;
+    height: 12em;
+    margin-left: -11%;   
 }
 .fort{
     margin-top: -6%;
     border-radius: 1em 1em 0em 0em;
     width: 100%;
-    height: 180px;
+    height: 150px;
     object-fit: cover;
 }
 
@@ -1372,22 +1370,23 @@ color: blue;
 
 /* iles */
 .ileact{
-    margin-top: 1%;
+    
     background-color:white;
     border:solid;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 19em;
-    height: 11em;
-  
-   
+    width: 17em;
+    height: 12em;
+    margin-top: -1%;
+    margin-bottom: 5%;
+    margin-left:-12%;
 }
 
 .iledefrioul{
-    margin-top: 1%;
+    margin-top:;
     border-radius: 1em 1em 0em 0em;
     width: 100%;
-    height: 8em;
+    height: 150px;
     object-fit: cover;
 }
 .frio{
@@ -1403,6 +1402,9 @@ color: blue;
     display: flex;
     flex-direction: column;
     vertical-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: -1px;
    
 }
 
@@ -1424,13 +1426,13 @@ color: blue;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
     box-shadow: #F2F2F2;
-    width: 18em;
-    height: 40%; 
+    width: 17em;
+    height: 12em; 
 }
 
 .parcdescalanques{
     border-radius: 1em 1em 0em 0em;
-    margin-top: 1%;
+    margin-top: ;
     width: 100%;
     height: 150px;
     object-fit: cover;
@@ -1447,12 +1449,13 @@ color: blue;
     border:solid;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 18em;
-    height: 40%;
+    width: 17em;
+    height: 12em;
+    margin-left:-12%;
 }
 
 .notredame{ 
-    margin-top: 1%;
+    margin-top:;
     border-radius: 1em 1em 0em 0em;
     width: 100%;
     height: 150px;
@@ -1471,15 +1474,16 @@ color: blue;
     border:solid;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 18em;
-    height: 50%;
+    width: 17em;
+    height: 12em;
+    margin-left: -12%;
 }
    
 .parclongchamp{
-    margin-top: 1%;
+   
     border-radius: 1em 1em 0em 0em;
     width: 100%;
-    height: 170px;
+    height: 150px;
     object-fit: cover;
 }  
  
@@ -1503,7 +1507,7 @@ color: blue;
     
 }
 .propos{
-   margin-left: 12%; 
+   margin-left: 17%; 
 }
 .hebnavfoot{
    margin-right: 15%; 
