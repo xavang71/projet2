@@ -1037,8 +1037,9 @@ align-items: flex-start;
             position: relative;
     }
     .textrech:after{
-        content:"<i class="fas fa-search"></i>";
+        content:"\f002";
         font-family:"Font Awesome 5 Free";
+        font-size: 2em;
         color: white;
         visibility: visible;
         position: absolute;
@@ -1046,18 +1047,6 @@ align-items: flex-start;
         left: 0;   
     }
 
-    /*.textrech:before{
-        content:“rechercher“;
-    }
-
-    .textrech:after{
-    color: white;
-    font-size: 20px;    
-    content:“<i class="fas fa-search"></i>“;
-    }
-   */ 
-      
-    
 
     /* fini le bloc recherche */
 
