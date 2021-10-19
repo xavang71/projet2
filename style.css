@@ -878,7 +878,7 @@ align-items: flex-start;
 
 /* debut mediaquery */     /*/////////////////////*/    /* pour celulaire */
 
-@media (max-width: 320px) {
+@media(max-width: 320px) {
  
     body{
         width:100%;
@@ -900,7 +900,6 @@ align-items: flex-start;
     }
 
     .logo{
-        border:solid;
         width: 95%;
         height: 55%;
         margin-left: 2%;
@@ -910,44 +909,46 @@ align-items: flex-start;
                
     } 
    
+    #navig{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
     .blulienb{
-        border:solid;
-        margin-top: -5vh;
+        margin-top: 3vh;
+        margin-bottom: -20%;
+        margin-left: -99%;
         font-size: 100%;
-        color: #0065FC;
-        display: flex;
-        align-items: flex-start;
-       
+        color:#92bdff;
     }
 
 
     .bluliena{
-        margin-top: 11vh;
-        margin-left: -120vh;
-        display:flex;
-        align-items: flex-start;
-
+       margin-top:50%;
+       margin-left: -160%;
+      
     }
 
     .bluliena a {
-    
         display: inline-block;
-        width: 120px;
+        width: 100px;
         padding: 5px 10px;
         text-decoration: none;
         color:#F2F2F2;
         font-style: bold; color:black;
         border-bottom: 3px solid #F2F2F2;
-        border-width: auto;
+        border-bottom-width:80%;
+        border-top:none;
+        border-width: 100%;
         padding-bottom: 6%;
+        padding-left: 25%;
         
     }
 
 
     .blulien{
-        margin-left: -43vh;
-        margin-top: 10vh;
+        margin-left: -80vh;
+        margin-top: -30%;
         display: flex;
         align-items: center;
         
@@ -956,14 +957,17 @@ align-items: flex-start;
         display: inline-block;
         width: 140px;
         padding-top:6px;
-        padding-right: 1% ;
-        padding-left: 1%;
+       
+        padding-left: 4%;
         text-decoration: none;
         color: #0065FC;
         border-top: none;
         border-bottom: 2px solid #0065FC;
-        border-width: auto;
-        padding-bottom: 6%;
+        border-bottom-width:90%;
+        border-width: 100%;
+        padding-left: 10%;
+        padding-right: 30%;
+        padding-bottom: 5%;
         color: #0065FC;
         
         }
@@ -1009,7 +1013,7 @@ align-items: flex-start;
     border-color:#F2F2F2;
     background-color: #f2f2f2;
     width: 3em;
-    margin-left: 0em;
+    margin-left: em;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -1073,11 +1077,8 @@ align-items: flex-start;
     .fil{
         display:flex;
         flex-direction: column;
+        margin-left: 1%;
     }
-
-
-
-
 
 
     /* bloc global haut */
@@ -1089,7 +1090,9 @@ align-items: flex-start;
         flex-direction: column-reverse;
     }
 
-
+.cinqlog{
+    margin-left: 5%;
+}
 
 /* ouverture les plus populaires aside */
 
@@ -1100,7 +1103,8 @@ align-items: flex-start;
 #pluspop{
     background-color: #F2F2F2;
     border-radius: 0px 0px 0px 0px;
-    width: auto;
+    margin:none;
+    width: 100%;
     height: auto;
 }
 
@@ -1186,7 +1190,8 @@ align-items: flex-start;
 
 #hebergement{
 
-width: auto;
+min-width: 0,01px;
+max-width: 320px;
 height: auto;
 border-radius: 0%;
 background-color: white;
@@ -1295,11 +1300,12 @@ color: blue;
 /* acitivité */
 
 #activite{
-    width: auto;
+    min-width: 0,01px;
+    max-width: 320px;
     height: auto;
     display: flex;
     flex-direction: column;
-    vertical-align: center;
+   
     margin-top: 3em;
 }
 
@@ -1531,7 +1537,7 @@ color: blue;
 } /* fermer pour media cellulaire 320px */
 
 
-@media only screen and(max-width:768px)and (min-width:321px){
+@media only screen and(max-width:768px) and (min-width:321px){
 
 
     body{
