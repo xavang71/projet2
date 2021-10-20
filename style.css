@@ -878,7 +878,17 @@ align-items: flex-start;
 
 /* debut mediaquery */     /*/////////////////////*/    /* pour celulaire */
 
+
 @media(max-width: 320px) {
+
+    h1{
+        font-size: 18px;
+    }
+
+    h2{
+        font-size: 16px;
+
+    }
  
     body{
         width:100%;
@@ -977,7 +987,7 @@ align-items: flex-start;
    /*texte trouver hebergements */
     .colleheb{
       
-        width: auto;
+        width: 80%;
         margin-top: 6%;
         margin-left: 6%;
         display:flex;
@@ -986,6 +996,11 @@ align-items: flex-start;
         flex-direction: column;
         line-height: 120%;
         }
+
+    .colleheb p{
+        font-size: smaller;
+    }
+
 
     /* place à la recherche */
     .search{
@@ -1177,7 +1192,7 @@ align-items: flex-start;
 /* lancement du conteneur hebergements */
 .heb{
     
-    width: auto;
+    width: 250px;
     height: 30px;
     padding-top: 25px;
     margin-left: 5%;
