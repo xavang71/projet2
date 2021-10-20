@@ -896,9 +896,10 @@ align-items: flex-start;
     }
 
     main{
+        overflow: hidden;
         width: auto;
         min-width: none;
-        margin:none;
+        margin-left:0px;
      } 
 
     .head1{
@@ -967,20 +968,20 @@ align-items: flex-start;
         display: inline-block;
         width: 140px;
         padding-top:6px;
-       
-        padding-left: 4%;
+        margin-left: 16%;
         text-decoration: none;
         color: #0065FC;
         border-top: none;
         border-bottom: 2px solid #0065FC;
-        border-bottom-width:90%;
-        border-width: 100%;
-        padding-left: 10%;
-        padding-right: 30%;
+        border-bottom-width:80%;
+        border-width: 90%;
+        padding-left: 20%;
+        padding-right: 10%;
         padding-bottom: 5%;
         color: #0065FC;
         
         }
+
 
     /* navig fini */
 
@@ -996,6 +997,7 @@ align-items: flex-start;
         flex-direction: column;
         line-height: 120%;
         }
+    
 
     .colleheb p{
         font-size: smaller;
@@ -1075,8 +1077,8 @@ align-items: flex-start;
         content:"\f002";
         font-family:"Font Awesome 5 Free";
         font-size: 20px;
-        margin-left: 32px;
-        margin-bottom: 22px;
+        margin-left: 38%;
+        margin-bottom: 60em;
         color: white;
         visibility: visible;
         position: absolute;
@@ -1092,9 +1094,61 @@ align-items: flex-start;
     .fil{
         display:flex;
         flex-direction: column;
-        margin-left: 1%;
+    }
+    .filtext{
+        margin-left: 4%;
+    }
+    .econo {
+       width: 70%;
+       font-size: 90%;
+       margin-right: 2%;
+    }
+    .famille{
+        width: 55%;
+        font-size: 90%;
+       margin-left: 82%;
+       margin-top: -24%; 
+    }
+    .fam{
+        margin-left: -2%;
+    }
+    .romantique{
+        margin-top:-3%;
+        margin-bottom:-4%;
+        font-size: 90%;
+    }
+    .animaux{
+       font-size: 90%;
     }
 
+
+    /* I in fo et texte */
+
+    .rondi{
+        background-color:white;
+        border-radius:50%;
+        width: 4%;
+        height:3%;
+        border:2px solid #f2f2f2; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+
+    }
+    .iconcinq{ 
+        font-size: smaller;
+        color:#0065FC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         
+         }
+
+    .logcinq p{
+        font-size: smaller;
+        margin-left: 2%;
+    }
 
     /* bloc global haut */
 
@@ -1118,22 +1172,25 @@ align-items: flex-start;
 #pluspop{
     background-color: #F2F2F2;
     border-radius: 0px 0px 0px 0px;
-    margin:none;
+    margin:0;
+    margin-left: 0;
+    margin-right: 0;
     width: 100%;
     height: auto;
+    font-size: smaller;
 }
 
 .poptext{
     padding-top: 25px;
     margin-top: 1px;
-    padding-left: 1em;
+    padding-left: 8%;
     margin-bottom: 1px;
     padding-bottom: auto;
    
 
 }
 .fa-chart-line{
-    padding-left: 1em;
+    padding-left: 5em;
     }
 
 .context2{
@@ -1141,18 +1198,19 @@ align-items: flex-start;
     background-color: white;
     border-radius: 1em 1em 1em 1em;
     width: auto;
-    height: 145px;
+    height: 50%;
     margin: 5%;
     margin-top: -5px;
     margin-left: 5%;  
 }
 .contimg2{
     
-    width: 8em;
-    height: 8em;
-    margin-left: 7px;
-    margin-top: 8px;
+    width: 9em;
+    height: 9em;
+    margin-left: 2%;
+    margin-top: 2%;
     border-radius: 1em 0% 0% 1em; 
+    object-fit: fill;
 }
 
 .asi{
@@ -1166,6 +1224,7 @@ align-items: flex-start;
     flex-direction: column;  
 }
 .conttexte2{
+    font-size: smaller;
     width:auto;
     height:70px ;
     margin-top: -10%;
@@ -1176,7 +1235,7 @@ align-items: flex-start;
 }
 
 .noche2{
-    font-size: 13px;
+    font-size: smaller;
     margin-top: -10%;
 }
 
@@ -1197,7 +1256,7 @@ align-items: flex-start;
     padding-top: 25px;
     margin-left: 5%;
     margin-top: 1px;
-margin-bottom: 5%;
+    margin-bottom: 5%;
     padding-left: 20px;
     margin-bottom: 1px;
     padding-bottom: auto;
@@ -1211,7 +1270,7 @@ max-width: 320px;
 height: auto;
 border-radius: 0%;
 background-color: white;
-margin-left: -5%;
+margin-left: -1%;
 
 }
 /*  pour alignements des conteneurs */
@@ -1221,7 +1280,7 @@ margin-left: -5%;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 5%;
-    padding-bottom: 20px;
+    padding-bottom: 10%;
     
 
 }
@@ -1246,12 +1305,11 @@ figcaption{
     border-radius: 1em 1em 1em 1em;
     width: 17em;
     height: 12em;
-    margin: 5%;
+    margin: 2%;
     display:flex;  
     justify-content: space-around;
     align-items: stretch;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
     
 }
 .contimg1{
@@ -1266,7 +1324,7 @@ figcaption{
 
 .conttexte1{
     color:black;
-    font-size: 130%;
+    font-size: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1290,7 +1348,7 @@ figcaption{
 /* chez amina*/
 
 .noche{
-    font-size: 13px;
+    font-size: 70%;
 
 }
 
@@ -1321,8 +1379,8 @@ color: blue;
     height: auto;
     display: flex;
     flex-direction: column;
-   
-    margin-top: 3em;
+    margin-top: -1%;
+    margin-left: 3%;
 }
 
 /* text activités*/
@@ -1337,7 +1395,7 @@ color: blue;
 .context3{
     width: auto;
     height: auto;
-    margin-left: 1%;
+    margin-left: 2%;
     margin-bottom: 1%;
     margin-top: 1%;
     display: flex;
@@ -1363,6 +1421,7 @@ color: blue;
     box-shadow: #F2F2F2;
     width: 17em;
     height: 12em;
+    margin-bottom: 4%;
 }
 
 .vieuxport {
@@ -1384,7 +1443,8 @@ color: blue;
     border-radius: 1em 1em 1em 1em;
     width: 17em;
     height: 12em;
-    margin-left: -11%;   
+    margin-left: -11%;
+    margin-bottom: 5%;  
 }
 .fort{
     margin-top: -6%;
@@ -1435,9 +1495,9 @@ color: blue;
     display: flex;
     flex-direction: column;
     vertical-align: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-left: -1px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+   
    
 }
 
@@ -1449,6 +1509,8 @@ color: blue;
     height: auto;    
     display: flex;
     flex-direction: column;
+    margin-top: 4%;
+    margin-bottom: 6%;
    
 }
 
@@ -1485,6 +1547,7 @@ color: blue;
     width: 17em;
     height: 12em;
     margin-left:-12%;
+    margin-bottom: 3%;
 }
 
 .notredame{ 
@@ -1553,7 +1616,7 @@ color: blue;
 } /* fermer pour media cellulaire 320px */
 
 
-@media only screen and(max-width:768px) and (min-width:321px){
+@media all and(min-width:321px)and(max-width:768px){
 
 
     body{
@@ -1561,6 +1624,7 @@ color: blue;
     }
 
     main{
+        overflow: hidden;
         width: auto;
         min-width: none;
         margin:none;
@@ -1720,7 +1784,7 @@ color: blue;
 
        
 
-/* difficulté dans cette zone --- besoin explications ---- un peu nul --- apprenant!!!*/
+/* difficulté dans cette zone!!!*/
     .textrech{
             visibility: hidden;
             position: relative;
@@ -2203,7 +2267,7 @@ color: blue;
     
         
     
-} /* fermer pour media cellulaire */
+                        } /* fermer pour media cellulaire */
 
 
 
