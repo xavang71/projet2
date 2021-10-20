@@ -1616,7 +1616,7 @@ color: blue;
 } /* fermer pour media cellulaire 320px */
 
 
-@media all and(min-width:321px)and(max-width:768px){
+@media (max-width:768px){
 
 
     body{
@@ -1624,10 +1624,8 @@ color: blue;
     }
 
     main{
-        overflow: hidden;
         width: auto;
-        min-width: none;
-        margin:none;
+        margin:0;
      } 
 
     .head1{
