@@ -879,7 +879,7 @@ align-items: flex-start;
 /* debut mediaquery */     /*/////////////////////*/    /* pour celulaire */
 
 
-@media(max-width: 320px) {
+@media(max-width:320px){
 
     h1{
         font-size: 18px;
@@ -896,7 +896,7 @@ align-items: flex-start;
     }
 
     main{
-        overflow: hidden;
+        /*overflow: hidden;*/
         width: auto;
         min-width: none;
         margin-left:0px;
@@ -921,14 +921,17 @@ align-items: flex-start;
     } 
    
     #navig{
+        
+        margin-left: -5%;
         display: flex;
         flex-direction: column-reverse;
     }
 
     .blulienb{
+        
         margin-top: 3vh;
         margin-bottom: -20%;
-        margin-left: -99%;
+        margin-left: 70%;
         font-size: 100%;
         color:#92bdff;
     }
@@ -936,7 +939,8 @@ align-items: flex-start;
 
     .bluliena{
        margin-top:50%;
-       margin-left: -160%;
+       margin-left: 16%;
+       margin-bottom: 9%;
       
     }
 
@@ -958,15 +962,15 @@ align-items: flex-start;
 
 
     .blulien{
-        margin-left: -80vh;
-        margin-top: -30%;
+        margin-left: -260%;
+        margin-top: -36%;
         display: flex;
         align-items: center;
         
     }
     .blulien a {
         display: inline-block;
-        width: 140px;
+        width: 120px;
         padding-top:6px;
         margin-left: 16%;
         text-decoration: none;
@@ -990,7 +994,7 @@ align-items: flex-start;
       
         width: 80%;
         margin-top: 6%;
-        margin-left: 6%;
+        margin-left: 10%;
         display:flex;
         justify-content: center;
         align-items: center;
@@ -1001,6 +1005,8 @@ align-items: flex-start;
 
     .colleheb p{
         font-size: smaller;
+        width: 250px;
+        margin-left: 8%;
     }
 
 
@@ -1159,9 +1165,41 @@ align-items: flex-start;
         flex-direction: column-reverse;
     }
 
-.cinqlog{
+    .cinqlog{
     margin-left: 5%;
-}
+    }
+
+    /* I du texte */
+    .cinqlog{
+        border:solid;color: black;
+    
+        display: flex;
+        flex-direction: row;
+        }
+        .rondi{
+            background-color:white;
+            border-radius:50%;
+            width: 22px;
+            height:22px;
+            border:2px solid #f2f2f2; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .iconcinq{ 
+           color:#0065FC;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .logcinq{
+       display: flex;
+       justify-content:center;
+       align-items: center;
+       padding-left: 1%;
+        } 
 
 /* ouverture les plus populaires aside */
 
@@ -1267,6 +1305,7 @@ align-items: flex-start;
 
 min-width: 0,01px;
 max-width: 320px;
+width: auto;
 height: auto;
 border-radius: 0%;
 background-color: white;
@@ -1303,7 +1342,7 @@ figcaption{
     border-color:#F2F2F2;
     box-shadow: #F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 17em;
+    width: auto;
     height: 12em;
     margin: 2%;
     display:flex;  
@@ -1374,19 +1413,19 @@ color: blue;
 /* acitivité */
 
 #activite{
-    min-width: 0,01px;
     max-width: 320px;
     height: auto;
     display: flex;
     flex-direction: column;
     margin-top: -1%;
-    margin-left: 3%;
+    /*margin-left:;*/
 }
 
 /* text activités*/
 
 .activites{
-    margin-left: 10%;
+    
+    margin-left: 1%;
     margin-right: 10%;
     margin-bottom: 10%;   
 }
@@ -1476,7 +1515,7 @@ color: blue;
 }
 
 .iledefrioul{
-    margin-top:;
+
     border-radius: 1em 1em 0em 0em;
     width: 100%;
     height: 150px;
@@ -1527,7 +1566,7 @@ color: blue;
 
 .parcdescalanques{
     border-radius: 1em 1em 0em 0em;
-    margin-top: ;
+
     width: 100%;
     height: 150px;
     object-fit: cover;
@@ -1551,7 +1590,7 @@ color: blue;
 }
 
 .notredame{ 
-    margin-top:;
+
     border-radius: 1em 1em 0em 0em;
     width: 100%;
     height: 150px;
@@ -1615,22 +1654,19 @@ color: blue;
     
 } /* fermer pour media cellulaire 320px */
 
-
-@media (max-width:768px){
-
-
+@media(min-width:321px) and (max-width:768px){
     body{
         width:100%; 
     }
 
     main{
-        width: auto;
-        margin:0;
+        width: 100%;
+        
      } 
 
     .head1{
        
-        width: 90%;
+        width: auto;
         height: 90px;
         margin-top: 5%;
         
@@ -1639,18 +1675,24 @@ color: blue;
     .logo{
         width: 95%;
         height: 55%;
-        margin-left: 2%;
+        margin-left: -15%;
         display:flex;
         justify-content: flex-start; 
         align-items: flex-start;
                
     } 
+    #navig{
+        border:solid;color:black;
+        width: 100%;
+        height: auto;
+        margin-left: 2%;
+    }
    
 
     .blulienb{
-        margin-left: -140vh;
-        margin-top: -5vh;
-        font-size: 100%;
+        margin-left: -180%;
+        margin-top: -15%;
+        font-size: 120%;
         color: #0065FC;
         float: center;
        
@@ -1659,7 +1701,7 @@ color: blue;
 
     .bluliena{
         margin-top: 11vh;
-        margin-left: -120vh;
+        margin-left: -29%;
         display:flex;
         align-items: flex-start;
 
@@ -1668,7 +1710,7 @@ color: blue;
     .bluliena a {
     
         display: inline-block;
-        width: 120px;
+        width: 100px;
         padding: 5px 10px;
         text-decoration: none;
         color:#F2F2F2;
@@ -1681,7 +1723,7 @@ color: blue;
 
 
     .blulien{
-        margin-left: -43vh;
+        margin-left: -45vh;
         margin-top: 10vh;
         display: flex;
         align-items: center;
@@ -1692,7 +1734,7 @@ color: blue;
         width: 140px;
         padding-top:6px;
         padding-right: 1% ;
-        padding-left: 1%;
+        padding-left: 2%;
         text-decoration: none;
         color: #0065FC;
         border-top: none;
@@ -1707,16 +1749,19 @@ color: blue;
 
    /*texte trouver hebergements */
     .colleheb{
-      
         width: auto;
         margin-top: 6%;
-        margin-left: 6%;
+        margin-left: 0%;
         display:flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         line-height: 120%;
+        
         }
+    .colleheb .h1{
+        margin-left: 4%;
+    }
 
     /* place à la recherche */
     .search{
@@ -1768,6 +1813,9 @@ color: blue;
     align-items: stretch;
 
     }
+    /* texte trouver heb*/
+
+
     /* display none pour recherche */
     .bouton{
         width: 3em;
@@ -1810,9 +1858,34 @@ color: blue;
         flex-direction: column;
     }
 
-
-
-
+    .filtext{
+        margin-left: 8%;
+        margin-bottom: 2%;
+    }
+    .econo {
+       width: 60%;
+       height: 1%;
+       font-size: 90%;
+       margin-right: 2%;
+       margin-bottom: 0;
+    }
+    .famille{
+        width: 53%;
+        font-size: 90%;
+       margin-left: 80%;
+       margin-top: -14%; 
+    }
+    .fam{
+        margin-left: -2%;
+    }
+    .romantique{
+        margin-top:4%;
+        margin-bottom:0;
+        font-size: 90%;
+    }
+    .animaux{
+       font-size: 90%;
+    }
 
 
     /* bloc global haut */
@@ -1936,6 +2009,7 @@ margin-left: -5%;
     flex-wrap: wrap;
     margin-left: 5%;
     padding-bottom: 20px;
+    width: auto;
     
 
 }
@@ -1958,7 +2032,7 @@ figcaption{
     border-color:#F2F2F2;
     box-shadow: #F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 17em;
+    width: auto;
     height: 12em;
     margin: 2%;
     display:flex;  
@@ -2129,7 +2203,7 @@ color: blue;
 }
 
 .iledefrioul{
-    margin-top:;
+    
     border-radius: 1em 1em 0em 0em;
     width: 100%;
     height: 150px;
@@ -2178,7 +2252,7 @@ color: blue;
 
 .parcdescalanques{
     border-radius: 1em 1em 0em 0em;
-    margin-top: ;
+    
     width: 100%;
     height: 150px;
     object-fit: cover;
@@ -2201,7 +2275,7 @@ color: blue;
 }
 
 .notredame{ 
-    margin-top:;
+
     border-radius: 1em 1em 0em 0em;
     width: 100%;
     height: 150px;
@@ -2264,19 +2338,883 @@ color: blue;
 
     
         
-    
-                        } /* fermer pour media cellulaire */
-
-
-
-
-
+   } /* fermer pour media cellulaire */
 
 
 /* pour tablette */
 
-@media(min-width: 768px) and (max-width: 1388px){
+@media(min-width:768px) and (max-width:1088px){
 
-
+    h2{
+        font-size: 120%;
+    }
+    h3{
+        font-size: 15px;
+        margin-top: 1%;
+        margin-bottom: -10px;
+        color:black;
+       
+    }
+    h4{
+        font-size: 15px;
+        color:black;
+        line-height: 16px;
+       
+    }
+    
+    main{
+        
+       margin-left:  2%;
+       margin-right: 2%;
+    
+    }
+    
+    .head1{
+    
+        margin-top: 0,5%;
+        display: flex;
+    }
+    .logo{
+        
+        display:flex;
+        justify-content: flex-start;
+    }
+    
+    #navig {
+        
+        width:60% ;
+        margin: auto;
+        margin-right: -1px;
+        margin-left: 50%;
+        display:flex;
+        align-items: center;
+       justify-content: space-between;
+    /* tentative pour placer la nav */
+    }
+    
+    .blulien a {
+        border-top: 5px solid #0065FC;
+        padding-top: 20px;
+        color: #0065FC;  
+    }
+    
+    .bluliena  a{
+        color:black; 
+    }
+    
+    .bluliena a:hover{
+        border-top: 5px solid #0065FC;
+        padding-top: 20px;
+        color: #0065FC;
+    }
+    
+    
+    /*.blulienb{
+    
+    }*/
+    /* nav placée --- trop content */
+    
+    .colleheb{
+    margin-top: 20px;
+    line-height: 0px;
+    }
+    
+    /* place à la recherche */
+    /*.search{
+    
+    }*/
+    
+    form{
+    border:solid;
+    border-radius: 10px; 
+    border-color:#F2F2F2;
+    border-left: 0px;
+    border-right: 0em;
+    width: 22%;
+    height: 2em;
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    
+    }
+    .iconrech{
+    
+    border-radius: 10px 0em 0em 10px;
+    border-color:#F2F2F2;
+    background-color: #f2f2f2;
+    width: 16%;
+    margin-left: 0em;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+    ::placeholder{  
+    color: black;
+    font-weight: bold;
+    }
+    
+    
+    #recherche {
+    border:none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+      }
+    
+    .barrech{
+    border-color: #F2F2F2;
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    
+    }
+    .bouton{
+        border-radius: 0px 10px 10px 0Px;
+        width: 110px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0065FC;
+    }
+    
+    
+    .textrech{
+        color: white;
+        font-weight: bold;
+        border:none;
+        padding-bottom: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-color: #0065FC;
+    }
+    
+    /* fini le bloc recherche */
+    
+    
+    /* debut filtres */
+    
+    .filtext {
+    margin-top: 28px;
+    margin-left: 2px;
+    }
+    
+    .fil {
+        
+        width: 70%;
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+       justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+     /* rond pour les icones */
+     .rondon{
+        border-radius: 50%;
+        background-color: #deebff;
+        width:2em;
+        height: 2em;
+       display:flex;
+       justify-content: center;
+       align-items: stretch;
+        }
+     /* rond pour les icones */
+    
+    
+    /* premier bloc economique */
+    .conta{
+       
+        width: 12em;
+        margin-top: 3px;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: stretch;
+        margin-top: 15%;
+        margin-right: -7em;
+        padding-left:-10px;
+        padding-right:-10px ;
+    }
+    
+    .fasmoney{
+        width: 0,3em;
+        height:0,3em;
+        color:#0065FC;
+        margin-right: 11%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        } 
+    
+    .econo{
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        border: solid;
+        border-color: #F2F2F2;
+        border-radius: 20px 20px 20px 20px;
+        width: 10em;
+        height: 2,5em;
+        margin:1em;
+        margin-top: 0,8em;
+        margin-bottom:0,8em ;
+       padding: -10%;
+        padding-left:-10% ;
+        padding-right:-10% ;
+    
+    }
+    .econo :hover {
+       color:#0065FC;
+    }
+    
+    
+    .texteco{
+    color:black;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    }
+    
+    /* bloc famille*/
+    
+    .famille{
+        border: solid;
+        border-color: #F2F2F2;
+        border-radius: 20px 20px 20px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        width: 8em;
+        height: 2em;
+        margin:1em;
+        margin-top: 0,8em;
+        margin-bottom:0,8em ;
+        padding-left:-10% ;
+        padding-right:-10% ;
+        }
+        .famille :hover {
+            color:#0065FC;
+        }
+    
+        .rondona{
+    
+        border-radius: 50%;
+        border-color: #deebff;
+        background-color: #deebff;
+        width:2em;
+        height: 2em;
+        display:flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: auto;
+        margin-left:1%;
+        padding: auto;
+        }
+    
+    i.fas.fa-child { 
+        margin-right: 11PX; 
+        }
+    
+    .fam{
+        color:black;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right:20px;
+        margin-left: 3px;
+        }
+    
+    /* composant romantique*/
+    .romantique{
+        border: solid;
+        border-color: #F2F2F2;
+        border-radius: 20px 20px 20px 20px; 
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        width: 10em;
+        height: 2em;
+        margin:1em;
+        margin-top: 0,8em;
+        margin-bottom:0,8em ;
+        padding-left:-10% ;
+        padding-right:-10% ;
+    }
+    .romantique :hover {
+        color:#0065FC;
+    }
+    
+    .rondonb{
+        border-radius: 50%;
+        border-color: #deebff;
+        background-color: #deebff;
+        width:2em;
+        height: 2em;
+        display:flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: auto;
+        margin-left: -3px;
+        padding: auto;
+    }
+    
+    .roma{
+        color:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:2px ;   
+    }
+    
+    /*composant animaux*/
+    .animaux{
+        border: solid;
+        border-color: #F2F2F2;
+        border-radius: 20px 20px 20px 20px;
+        display: flex;
+        justify-content: center;
+        width: 13em;
+        height: 2em;
+        margin:1em;
+        margin-top: 0,8em;
+        margin-bottom:0,8em ;
+        padding-left:-10% ;
+        padding-right:-10% ;   
+    }
+    .animaux :hover {
+        color:#0065FC;
+    }
+    
+    .rondonc{
+        border-radius: 50%;
+        border-color: #deebff;
+        background-color: #deebff;
+        width:2em;
+        height: 2em;
+        display:flex;
+        display: inline;
+        justify-content: center;
+        align-items: flex-start;
+        margin: auto;
+        margin-left: -3px;
+        padding: auto;
+    
+    }
+    .anim{
+        color:black;
+        display: flex;
+        flex-wrap: nowrap;   
+    }
+    
+    /* fin de filtres */
+    
+    
+    /* début bloc icone 500 logements */
+        .cinqlog{
+        display: flex;
+        flex-direction: row;
+        }
+        .rondi{
+            background-color:white;
+            border-radius:50%;
+            width: 22px;
+            height:22px;
+            border:2px solid #f2f2f2; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .iconcinq{ 
+           color:#0065FC;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .logcinq{
+       display: flex;
+       justify-content:center;
+       align-items: center;
+       padding-left: 1%;
+        }
+    /* fin icone 500 log*/
+        
+    
+    
+    
+    /* lancement du conteneur hebergements */
+    .heb{
+        
+        width: auto;
+        height: 30px;
+        padding-top: 25px;
+        margin-left: 5%;
+        margin-top: 1px;
+        padding-left: 20px;
+        margin-bottom: 1px;
+        padding-bottom: auto;
+        
+    }
+    
+    #hebergement {
+    background-color:#F2F2F2;
+    width: 70%;
+    height: 580px;
+    border-radius: 1em 1em 1em 1em;
+    }
+    
+    /*  pour alignements des conteneurs */
+    .moveblock{
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        padding-bottom: 20px; 
+    }
+    
+    figure{
+        margin-left:auto ;
+        margin-right: auto;
+    }
+    
+    figcaption{  
+        margin-left: 6px;
+        padding: auto;
+    }
+    
+    /* tous les conteneurs hebergements*/
+    
+    .context1{
+        background-color: white;
+        border:solid;
+        border-color:white;
+        border-radius: 1em 1em 1em 1em;
+        width: 15em;
+        height: 12em;
+        margin: 2%;
+        display:flex;  
+        justify-content: space-around;
+        align-items: stretch;
+        flex-wrap: wrap; 
+        }
+    
+    .contimg1{
+        border-radius: 1em 1em 0em 0em;
+        width: 15em;
+        height: 130px;
+        margin-top: -15px;
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        }
+    
+    .conttexte1{
+        color:black;
+        font-size: 130%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+    }
+    .contstar1{
+        width: 10em;
+        height: 10em;
+        margin-top: -20px;
+        margin-bottom: 50px;
+        display:flex;
+        justify-content: flex-start;
+        align-items: flex-start;  
+    }
+    /*hotel de la cannebiere */
+    /*hotel du port*/
+    /* hotel les mouettes */
+    /* hotel de la mer */
+    /* auber le panier*/
+    /* chez amina*/
+    
+    .noche{
+        font-size: 13px;
+    }
+    
+    /* couleur picto star */
+    .grisstar{
+        font-size: 10px;
+        color:grey; 
+    
+    }
+    
+    .bluestar{ 
+        font-size: 10px;
+        color: blue;
+    }
+    
+    
+    .afiplus{
+        color:black;
+        margin: 10% 0% 0% 1% ;
+        margin-left: 6%;
+        padding-left: 10px;
+        
+    }
+    
+    .globalhaut{
+        display: flex; 
+    }
+    
+    /* finalisation hebergement */
+    
+    /* ouverture les plus populaires */
+    
+    .popy{
+        display:flex;
+        flex-direction: row;
+    }
+    
+    #pluspop{
+        background-color: #F2F2F2;
+        width: 32%;
+        height: 580px;
+        margin-left:1%;
+        border-radius: 1em 1em 1em 1em; 
+    }
+    
+    .poptext{
+        padding-top: 25px;
+        margin-top: 1px;
+        padding-left: 8%;
+        margin-bottom: 1px;
+        padding-bottom: auto;
+    }
+    
+    .fa-chart-line{
+        padding-left: 34%;
+        }
+    
+    .context2{
+        border-color: white;
+        background-color: white;
+        border-radius: 1em 1em 1em 1em;
+        width: 340px;
+        height: 145px;
+        margin: 5%;
+        margin-top: -5px;
+        margin-left: 8%;  
+    }
+    
+    .contimg2{
+        width: 8em;
+        height: 8em;
+        margin-left: 1%;
+        margin-top: 8px;
+        border-radius: 1em 0% 0% 1em; 
+    }
+    
+    .asi{
+        
+        width: 60%;
+        height: 70%;
+        margin-left: 2%;
+        margin-top: 2%;
+        padding-top: 3%;
+        display: flex;
+        flex-direction: column;  
+    }
+    
+    .conttexte2{
+        width:150px;
+        height:70px ;
+        margin-top: -10%;
+        color:black;
+       padding-bottom: 5%;
+       display:flex;
+       flex-wrap: wrap;
+    }
+    
+    .noche2{
+        font-size: 13px;
+        margin-top: -10%;
+    }
+    
+    .contstar2{
+        margin-top: 15%;
+        display: flex;
+        flex-direction: row;
+       
+    }
+    
+    /*finalisation aside*/
+    
+    
+    /* ouverture activité*/
+    
+    #activite{
+       margin-left: 2%;
+        margin-top: 2%;
+        background-color: white;
+        width: 1340px;
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        margin-right: -10%;
+    }
+    
+    /* text activités*/
+    
+    .activites{
+        margin-left: 10%;
+        margin-right: 100%;
+        margin-bottom: 10%;   
+    }
+    
+    /*conteneur 1 global 1*/
+    .context3{
+        margin-top: 6%;
+        margin-left: -14%;
+        margin-right: 3%;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    
+    }
+    /*conteneur interne 1 */
+    .contint1{
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /*vieux port */
+    .portact{
+        background-color: white;
+        border:solid;
+        border-color:#F2F2F2;
+        border-radius: 1em 1em 1em 1em;
+        box-shadow: #F2F2F2;
+        width: 20em;
+        height: 76%;
+          
+    }
+    
+    .vieuxport{
+        border-radius: 1em 1em 0em 0em;
+        margin-top: -7%;
+        width: 100%;
+        height: 26em; 
+        object-fit: cover;
+    
+     }   
+     .vp{
+         margin-left: 4%;
+     }
+    
+    /* fort */
+    .fortact{
+        background-color:white;
+        border:solid;
+        border-color:#F2F2F2;
+        border-radius: 1em 1em 1em 1em;
+        width: 19em;
+        height: 225px;
+        overflow: hidden;
+        
+        
+    }
+    .fort{
+        margin-top: -6%;
+        border-radius: 1em 1em 0em 0em;
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+    
+    
+    .pom{
+        margin-left:4%;
+        margin-top:6px;
+    }
+    
+    
+    /* iles */
+    .ileact{
+        margin-top: 20%;
+        background-color:white;
+        border:solid;
+        border-color:#F2F2F2;
+        border-radius: 1em 1em 1em 1em;
+        width: 19em;
+        height: 11em;
+      
+       
+    }
+    
+    .iledefrioul{
+        margin-top: -6%;
+        border-radius: 1em 1em 0em 0em;
+        width: 100%;
+        height: 8em;
+        object-fit: cover;
+    }
+    .frio{
+        margin-left: 4%;
+    }
+    
+    
+    /* conteneur ext 2 global */
+    
+    .context4{
+        margin-left: 2%;
+        margin-top: 6%;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    /* conteneur interne 2 */
+    
+    .contint2{
+        margin-left: 10%;    
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* parc des calanques*/
+    .parcactiv{
+        background-color: white;
+        border:solid;
+        border-color:#F2F2F2;
+        border-radius: 1em 1em 1em 1em;
+        box-shadow: #F2F2F2;
+        width: 20em;
+        height: 76%; 
+    }
+    
+    .parcdescalanques{
+        border-radius: 1em 1em 0em 0em;
+        margin-top: -7%;
+        width: 100%;
+        height: 26em;
+        object-fit: cover;
+    }
+    .cal{
+        margin-left: 4%;
+    }
+    
+    
+    /* notre dame */
+    .dameact{
+        
+        background-color: white;
+        border:solid;
+        border-color:#F2F2F2;
+        border-radius: 1em 1em 1em 1em;
+        width: 18em;
+        height: 40%;
+    }
+    
+    .notredame{ 
+        margin-top: -6%;
+        border-radius: 1em 1em 0em 0em;
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+    
+    .gard{
+        margin-left: 4%;
+        margin-top: 6px;
+    }
+    
+    /* parc de longchamps */
+    
+    .longact{
+        margin-top: 15%;
+        background-color: white;
+        border:solid;
+        border-color:#F2F2F2;
+        border-radius: 1em 1em 1em 1em;
+        width: 18em;
+        height: 50%;
+    }
+       
+    .parclongchamp{
+        margin-top: -6%;
+        border-radius: 1em 1em 0em 0em;
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+    }  
+    
+    .long{
+        margin-left: 4%;
+    }
+    
+    /* fin de section activité */
+    
+    /*test pour alignement du texte dans footer */
+    
+    footer {
+        background-color:#F2F2F2;
+        height: 10em;
+        
+        }
+    
+    #foot{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+        }
+    
+    .propos{
+        margin-top: 2%;
+        margin-left: 4%;
+        
+    
+    }
+    .propos a{
+        color:black;
+    }
+    .propos :hover{
+        color: #0065FC;
+    }
+    
+    .hebnavfoot{
+        margin-top: 2%;
+        margin-left:18%;
+    
+    }
+    .hebnavfoot a{
+        color: black;
+    }
+    .hebnavfoot :hover{
+        color: #0065FC;
+    }
+    
+    .assit{
+        margin-top: 2%; 
+        margin-left: 17%;
+    }
+    .assit a{
+        color:black;
+    }
+    
+    .assit :hover{
+        color:#0065FC;
+    }
 
 } /* fermeture pour media tablette */
