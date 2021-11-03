@@ -278,7 +278,9 @@ align-items: stretch;
     }
 
 i.fas.fa-child { 
-    margin-right: 11PX; 
+    margin-right: 11px;
+    top:1;
+    left:0;
     }
 
 .fam{
@@ -287,7 +289,7 @@ i.fas.fa-child {
     justify-content: flex-end;
     align-items: center;
     margin-right:20px;
-    margin-left: 3px;
+    margin-left: 2px;
     }
 
 /* composant romantique*/
@@ -892,28 +894,29 @@ align-items: flex-start;
  
     body{
         width:100%;
+        margin: 0%;
        
     }
 
     main{
-        /*overflow: hidden;*/
+       overflow: hidden;
         width: auto;
         min-width: none;
+        max-width: 319px;
         margin-left:0px;
+        margin-right: 0%;
      } 
 
-    .head1{
-       
+    .head1{ 
         width: 90%;
         height: 90px;
-        margin-top: 5%;
-        
+        margin-top: 5%;   
     }
 
     .logo{
         width: 95%;
         height: 55%;
-        margin-left: 2%;
+        /* margin-left: 1%;*/
         display:flex;
         justify-content: flex-start; 
         align-items: flex-start;
@@ -921,15 +924,15 @@ align-items: flex-start;
     } 
    
     #navig{
-        
+        border:solid;color:black;
         margin-left: -5%;
         display: flex;
         flex-direction: column-reverse;
+        margin-bottom: 1%;
     }
 
     .blulienb{
-        
-        margin-top: 3vh;
+        margin-top: 15%;
         margin-bottom: -20%;
         margin-left: 70%;
         font-size: 100%;
@@ -938,47 +941,51 @@ align-items: flex-start;
 
 
     .bluliena{
-       margin-top:50%;
-       margin-left: 16%;
-       margin-bottom: 9%;
+       margin-top: 40%;
+       margin-left: 12%;
+       margin-bottom: 14%;
+       font-size: 16px;
       
     }
 
     .bluliena a {
         display: inline-block;
-        width: 100px;
-        padding: 5px 10px;
+        width: 119px;
+        /*padding: 5px 10px;*/
         text-decoration: none;
         color:#F2F2F2;
         font-style: bold; color:black;
         border-bottom: 3px solid #F2F2F2;
         border-bottom-width:80%;
         border-top:none;
-        border-width: 100%;
-        padding-bottom: 6%;
-        padding-left: 25%;
+        border-width: 2px;
+        border-left-width:10%;
+        padding-bottom: 5%;
+        padding-left: 30%;
         
     }
 
 
     .blulien{
-        margin-left: -260%;
+        margin-left:-185%;
         margin-top: -36%;
         display: flex;
         align-items: center;
+        font-size: 16px;
         
     }
     .blulien a {
         display: inline-block;
-        width: 120px;
+        width: 159px;
         padding-top:6px;
-        margin-left: 16%;
+        margin-left: 14%;
         text-decoration: none;
         color: #0065FC;
         border-top: none;
         border-bottom: 2px solid #0065FC;
         border-bottom-width:80%;
-        border-width: 90%;
+        border-width: 2px;
+        /*border-left-width:;*/
         padding-left: 20%;
         padding-right: 10%;
         padding-bottom: 5%;
@@ -1083,13 +1090,13 @@ align-items: flex-start;
         content:"\f002";
         font-family:"Font Awesome 5 Free";
         font-size: 20px;
-        margin-left: 38%;
-        margin-bottom: 60em;
+       /* margin-left: 38%;
+        margin-bottom: 1px;*/
         color: white;
         visibility: visible;
         position: absolute;
-        top: 0;
-        left: 0;   
+        top: 1;
+        left: 2;   
     }
 
 
@@ -1098,22 +1105,27 @@ align-items: flex-start;
     /* bloc filtre */ 
 
     .fil{
+       
+        min-width: 0%;
+        max-width: 320px;
+        padding-left: -10%;
+        margin-left: 6%;
         display:flex;
         flex-direction: column;
     }
     .filtext{
-        margin-left: 4%;
+        margin-left: 8%;
     }
     .econo {
-       width: 70%;
+       width: 60%;
        font-size: 90%;
        margin-right: 2%;
     }
     .famille{
-        width: 55%;
+        width: 50%;
         font-size: 90%;
-       margin-left: 82%;
-       margin-top: -24%; 
+       margin-left: 72%;
+       margin-top: -23%; 
     }
     .fam{
         margin-left: -2%;
@@ -1123,37 +1135,9 @@ align-items: flex-start;
         margin-bottom:-4%;
         font-size: 90%;
     }
+
     .animaux{
        font-size: 90%;
-    }
-
-
-    /* I in fo et texte */
-
-    .rondi{
-        background-color:white;
-        border-radius:50%;
-        width: 4%;
-        height:3%;
-        border:2px solid #f2f2f2; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 5%;
-
-    }
-    .iconcinq{ 
-        font-size: smaller;
-        color:#0065FC;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-         
-         }
-
-    .logcinq p{
-        font-size: smaller;
-        margin-left: 2%;
     }
 
     /* bloc global haut */
@@ -1165,16 +1149,13 @@ align-items: flex-start;
         flex-direction: column-reverse;
     }
 
-    .cinqlog{
-    margin-left: 5%;
-    }
+     /* I  info du texte */
 
-    /* I du texte */
     .cinqlog{
-        border:solid;color: black;
-    
+        max-width: 319px;
         display: flex;
         flex-direction: row;
+        margin-bottom: 2%;
         }
         .rondi{
             background-color:white;
@@ -1186,20 +1167,29 @@ align-items: flex-start;
             justify-content: center;
             align-items: center;
             margin-top: 10px;
+            margin-left: 1%;
         }
         .iconcinq{ 
+    
            color:#0065FC;
             display: flex;
             justify-content: center;
             align-items: center;
-        
         }
         .logcinq{
+            margin-top: 3%;
+            margin-left: 2%;
+            width: 90%;
+            height: 40px;
        display: flex;
        justify-content:center;
        align-items: center;
-       padding-left: 1%;
+       padding-left: 2%;
         } 
+        .logcinq p{
+            font-size: 14px;
+        }
+ /* I in fo et texte */
 
 /* ouverture les plus populaires aside */
 
@@ -1372,7 +1362,7 @@ figcaption{
 }
 .contstar1{
     width: 10em;
-    height: 10em;
+    height: auto;
     margin-top: -20px;
     margin-bottom: 50px;
     display:flex;
@@ -1405,6 +1395,7 @@ color: blue;
 }
 
 .afiplus{
+    margin-top: -20%;
     color:black;
     
     
@@ -1414,6 +1405,7 @@ color: blue;
 
 #activite{
     max-width: 320px;
+    margin-left: 5%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -1424,8 +1416,8 @@ color: blue;
 /* text activités*/
 
 .activites{
-    
-    margin-left: 1%;
+    border:solid;color:black;
+    margin-left: 8%;
     margin-right: 10%;
     margin-bottom: 10%;   
 }
@@ -1655,6 +1647,7 @@ color: blue;
 } /* fermer pour media cellulaire 320px */
 
 @media(min-width:321px) and (max-width:768px){
+    
     body{
         width:100%; 
     }
@@ -1673,9 +1666,9 @@ color: blue;
     }
 
     .logo{
-        width: 95%;
-        height: 55%;
-        margin-left: -15%;
+        width: 120%;
+        height: 65%;
+        margin-left: 8%;
         display:flex;
         justify-content: flex-start; 
         align-items: flex-start;
@@ -1683,16 +1676,17 @@ color: blue;
     } 
     #navig{
         border:solid;color:black;
-        width: 100%;
+        width: 60%;
+        
         height: auto;
-        margin-left: 2%;
+        /*margin-left: 2%;*/
     }
    
 
     .blulienb{
-        margin-left: -180%;
-        margin-top: -15%;
-        font-size: 120%;
+        margin-right: 160%;
+        margin-top: -10%;
+        font-size: 130%;
         color: #0065FC;
         float: center;
        
@@ -1700,8 +1694,9 @@ color: blue;
 
 
     .bluliena{
-        margin-top: 11vh;
-        margin-left: -29%;
+        margin-top: 20%;
+        /*margin-left:20%;
+        /*margin-right: 290%;*/
         display:flex;
         align-items: flex-start;
 
@@ -1710,7 +1705,7 @@ color: blue;
     .bluliena a {
     
         display: inline-block;
-        width: 100px;
+        width: 150px;
         padding: 5px 10px;
         text-decoration: none;
         color:#F2F2F2;
@@ -1723,8 +1718,8 @@ color: blue;
 
 
     .blulien{
-        margin-left: -45vh;
-        margin-top: 10vh;
+        margin-left: -100%;
+        margin-top: 20%;
         display: flex;
         align-items: center;
         
@@ -2719,6 +2714,9 @@ color: blue;
     
     
     /* début bloc icone 500 logements */
+
+
+    /* I info du texte */ 
         .cinqlog{
         display: flex;
         flex-direction: row;
