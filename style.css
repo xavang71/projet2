@@ -924,7 +924,6 @@ align-items: flex-start;
     } 
    
     #navig{
-        border:solid;color:black;
         margin-left: -5%;
         display: flex;
         flex-direction: column-reverse;
@@ -1646,7 +1645,7 @@ color: blue;
     
 } /* fermer pour media cellulaire 320px */
 
-@media(min-width:321px) and (max-width:768px){
+@media(min-width:321px) and (max-width:375px){
     
     body{
         width:100%; 
@@ -1654,6 +1653,8 @@ color: blue;
 
     main{
         width: 100%;
+        margin: 0;
+
         
      } 
 
@@ -1903,6 +1904,8 @@ color: blue;
 #pluspop{
     background-color: #F2F2F2;
     border-radius: 0px 0px 0px 0px;
+    min-width: 321px;
+    max-width: 766px;
     width: auto;
     height: auto;
 }
@@ -1925,6 +1928,8 @@ color: blue;
     background-color: white;
     border-radius: 1em 1em 1em 1em;
     width: auto;
+    min-width: 321px;
+    max-width: 766px;
     height: 145px;
     margin: 5%;
     margin-top: -5px;
@@ -2005,6 +2010,8 @@ margin-left: -5%;
     margin-left: 5%;
     padding-bottom: 20px;
     width: auto;
+    min-width: 321px;
+    max-width: 766px;
     
 
 }
@@ -2027,6 +2034,8 @@ figcaption{
     border-color:#F2F2F2;
     box-shadow: #F2F2F2;
     border-radius: 1em 1em 1em 1em;
+    min-width: 321px;
+    max-width: 766px;
     width: auto;
     height: 12em;
     margin: 2%;
@@ -2315,6 +2324,7 @@ color: blue;
 #foot{
     background-color: #F2F2F2;
     margin:0;
+    max-width: 375px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -2335,6 +2345,10 @@ color: blue;
         
    } /* fermer pour media cellulaire */
 
+/* rajout media cellulaire pour adaptation visuelle */
+   @media(min-width:321px) and (max-width:768px){
+
+   }
 
 /* pour tablette */
 
