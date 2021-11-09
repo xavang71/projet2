@@ -2197,9 +2197,9 @@ color: blue;
 /* text activités*/
 
 #activites{
-    margin-left: 1%;
+    margin-left: 2%;
     margin-right: 10%;
-    margin-bottom: 10%;   
+    margin-bottom: 8%;   
 }
 
 /*conteneur 1 global 1*/
@@ -2207,8 +2207,8 @@ color: blue;
     width: 100%;
     height: auto;
     margin-left: 1%;
-    margin-bottom: 1%;
-    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
    
@@ -2217,7 +2217,8 @@ color: blue;
 /*conteneur interne 1 */
 .contint1{ 
     width: 100%;
-    margin-top:2% ;
+    margin-top:3% ;
+    margin-bottom: 3%;
     margin-bottom:-5% ;
     display: flex;
     flex-direction: column;
@@ -2253,7 +2254,8 @@ color: blue;
     border-radius: 1em 1em 1em 1em;
     width: 96%;
     height: 12em;
-    margin-left: -11%;   
+    margin-left: -11%; 
+    margin-bottom: 5%;  
 }
 .fort{
     margin-top: -6%;
@@ -2304,8 +2306,8 @@ color: blue;
     display: flex;
     flex-direction: column;
     vertical-align: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     margin-left: -1px;
    
 }
@@ -2318,6 +2320,9 @@ color: blue;
     height: auto;    
     display: flex;
     flex-direction: column;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
    
 }
 
@@ -2329,7 +2334,8 @@ color: blue;
     border-radius: 1em 1em 1em 1em;
     box-shadow: #F2F2F2;
     width: 96%;
-    height: 12em; 
+    height: 12em;
+    margin-bottom: 2%; 
 }
 
 .parcdescalanques{
@@ -2354,6 +2360,7 @@ color: blue;
     width: 96%;
     height: 12em;
     margin-left:-12%;
+    margin-bottom: 4%;
 }
 
 .notredame{ 
