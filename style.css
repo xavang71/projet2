@@ -899,7 +899,7 @@ align-items: flex-start;
     }
 
     main{
-       overflow: hidden;
+       /*overflow: hidden;*/
         width: auto;
         min-width: none;
         max-width: 319px;
@@ -1649,9 +1649,15 @@ color: blue;
     
     body{
         width:100%; 
+        max-width: 425px;
     }
 
     main{
+        
+        min-width: 320px;
+        max-width: 425px;
+        margin-left:0px;
+        margin-right: 0%;
         width: 100%;
         margin: 0;
 
@@ -1663,7 +1669,7 @@ color: blue;
         width: 100%;
         height: 90px;
         margin-top: 5%;
-        display: grid;
+        /*display: grid;
        /* border:solid #0065FC;
         grid-template-columns: 50% 50%;
         grid-template-rows: repeat(2, 50%);
@@ -1821,8 +1827,9 @@ color: blue;
     border-color:#F2F2F2;
     border-right: #0065FC;
     min-width:auto;
-    width: auto;
+    width: 80%;
     height: 10%;
+    margin-left: 10%;
     display:flex;
     flex-direction: row;
     align-items: stretch;
@@ -1834,10 +1841,8 @@ color: blue;
     border-color:#F2F2F2;
     background-color: #f2f2f2;
     width: 3em;
-    margin-left: 0em;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: -150px;
+    bottom:1;
     }
     ::placeholder{
     color: black;
@@ -1845,10 +1850,12 @@ color: blue;
     }
 
     #recherche {
+    width: 220px;
     border:none;
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: stretch;
+    font-size: 100%;
     }
 
     .barrech{
@@ -1865,6 +1872,7 @@ color: blue;
     .bouton{
         width: 3em;
         height: 2,8em;
+        margin-right: -45%;
         padding-bottom: 10px;
         border-radius: 10px 10px 10px 10px;
         display: flex;
@@ -1884,13 +1892,13 @@ color: blue;
         content:"\f002";
         font-family:"Font Awesome 5 Free";
         font-size: 20px;
-        margin-left: 32px;
-        margin-bottom: 22px;
+        margin-left: 0px;
+        margin-bottom: 0px;
         color: white;
         visibility: visible;
         position: absolute;
-        top: 0;
-        left: 0;   
+        top: 1;
+        left: 1;   
     }
 
 
@@ -1953,8 +1961,9 @@ color: blue;
 #pluspop{
     background-color: #F2F2F2;
     border-radius: 0px 0px 0px 0px;
-    min-width: 321px;
-    max-width: 766px;
+    min-width: 320px;
+    max-width: 425px;
+    margin: 0;
     width: auto;
     height: auto;
 }
@@ -1969,7 +1978,7 @@ color: blue;
 
 }
 .fa-chart-line{
-    padding-left: 1em;
+    padding-left: 30%;
     }
 
 .context2{
@@ -2033,7 +2042,7 @@ color: blue;
     width: auto;
     height: 30px;
     padding-top: 25px;
-    margin-left: 5%;
+    margin-left: -4%;
     margin-top: 1px;
     padding-left: 20px;
     margin-bottom: 1px;
@@ -2047,7 +2056,7 @@ width: auto;
 height: auto;
 border-radius: 0%;
 background-color: white;
-margin-left: -5%;
+margin:0;
 
 }
 /*  pour alignements des conteneurs */
@@ -2056,26 +2065,35 @@ margin-left: -5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 5%;
-    padding-bottom: 20px;
-    width: auto;
-    min-width: 321px;
-    max-width: 766px;
+   margin-left: -2%;
+    padding-bottom: 10%;
+    width: 100%;
+  /*  min-width: 321px;
+    max-width: 425px;*/
     
 
 }
 figure{
    
-    margin-left:auto ;
-    margin-right: auto;
+    margin-left:0 ;
+    margin-right:0;
+    min-width: 321px;
+    max-width: 425px;
+    width: 100%;
 }
 
 
 figcaption{  
-    margin-left: 6px;
-    padding: auto;
+    width: auto;
+   /* margin-left: 6px;
+    padding: auto;*/
 }
 /* tous les conteneurs hebergements*/
+
+a{
+    width: 100%;
+    height: auto;
+}
 
 .context1{
     background-color: white;
@@ -2083,27 +2101,38 @@ figcaption{
     border-color:#F2F2F2;
     box-shadow: #F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    min-width: 321px;
-    max-width: 766px;
-    width: auto;
-    height: 12em;
-    margin: 2%;
+    /*min-width: 321px;
+    max-width: 425px;*/
+    width: 97%;
+    /*height:1%;*/
+    margin-right: 2%;
     display:flex;  
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: stretch;
     flex-wrap: wrap;
-    
+  /* trouver équilibre conteneur! yes */  
     
 }
 .contimg1{
+    /*background-size: cover;*/
+   /* min-width: 321px;*/
+    max-width: 425px;
     border-radius: 1em 1em 0em 0em;
-    width: 17em;
-    height: 130px;
-    margin-top: -15px;
+    margin-left:2%;
+   margin-top:-5%;
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    /*object-fit: cover;*/
     }
+
+img .contimg1{
+    width: 200%;
+    height: 45%;
+   /* width: 100%;
+    height: 100%;*/
+
+}
 
 .conttexte1{
     color:black;
@@ -2115,8 +2144,8 @@ figcaption{
 
 }
 .contstar1{
-    width: 10em;
-    height: 10em;
+    width: 1%;
+    height: 1%;
     margin-top: -20px;
     margin-bottom: 50px;
     display:flex;
@@ -2157,7 +2186,7 @@ color: blue;
 /* acitivité */
 
 #activite{
-    width: auto;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -2167,15 +2196,15 @@ color: blue;
 
 /* text activités*/
 
-.activites{
-    margin-left: 10%;
+#activites{
+    margin-left: 1%;
     margin-right: 10%;
     margin-bottom: 10%;   
 }
 
 /*conteneur 1 global 1*/
 .context3{
-    width: auto;
+    width: 100%;
     height: auto;
     margin-left: 1%;
     margin-bottom: 1%;
@@ -2187,7 +2216,7 @@ color: blue;
 }
 /*conteneur interne 1 */
 .contint1{ 
-    width: auto;
+    width: 100%;
     margin-top:2% ;
     margin-bottom:-5% ;
     display: flex;
@@ -2201,7 +2230,7 @@ color: blue;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
     box-shadow: #F2F2F2;
-    width: 17em;
+    width: 96%;
     height: 12em;
 }
 
@@ -2222,7 +2251,7 @@ color: blue;
     border:solid;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 17em;
+    width: 96%;
     height: 12em;
     margin-left: -11%;   
 }
@@ -2248,7 +2277,7 @@ color: blue;
     border:solid;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 17em;
+    width: 96%;
     height: 12em;
     margin-top: -1%;
     margin-bottom: 5%;
@@ -2270,7 +2299,7 @@ color: blue;
 /* conteneur ext 2 global */
 
 .context4{
-    width: auto;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -2285,7 +2314,7 @@ color: blue;
 
 .contint2{
 
-    width: auto;
+    width: 100%;
     height: auto;    
     display: flex;
     flex-direction: column;
@@ -2299,7 +2328,7 @@ color: blue;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
     box-shadow: #F2F2F2;
-    width: 17em;
+    width: 96%;
     height: 12em; 
 }
 
@@ -2322,7 +2351,7 @@ color: blue;
     border:solid;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 17em;
+    width: 96%;
     height: 12em;
     margin-left:-12%;
 }
@@ -2347,7 +2376,7 @@ color: blue;
     border:solid;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 17em;
+    width: 96%;
     height: 12em;
     margin-left: -12%;
 }
@@ -2373,8 +2402,8 @@ color: blue;
 #foot{
     background-color: #F2F2F2;
     margin:0;
-    max-width: 375px;
-    width: auto;
+    max-width: 425px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -2394,10 +2423,10 @@ color: blue;
         
    } /* fermer pour media cellulaire */
 
-/* rajout media cellulaire pour adaptation visuelle */
+/* rajout media cellulaire pour adaptation visuelle 
    @media(min-width:321px) and (max-width:768px){
 
-   }
+   }*/
 
 /* pour tablette */
 
