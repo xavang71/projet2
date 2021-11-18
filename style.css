@@ -2906,7 +2906,7 @@ color: blue;
     padding-left: 1em;
     margin-bottom: 1px;
     padding-bottom: auto;
-   font-size: 120%; 
+   font-size: 180%; 
 }
 
 .fa-chart-line{
@@ -2918,18 +2918,18 @@ color: blue;
     border-color: white;
     background-color: white;
     border-radius: 1em 1em 1em 1em;
-    width: auto;
+    width: 90%;
     min-width: 426px;
     max-width: 768px;
-    height: 195px;
-    margin: 7%;
+    height: 220px;
+    margin: 9%;
     margin-top: -1px;
     margin-left: 5%;  
 }
 .contimg2{
     
-    width: 14em;
-    height: 11em;
+    width: 17em;
+    height: 13em;
     margin-left: 7px;
     margin-top: 8px;
     border-radius: 1em 0% 0% 1em; 
@@ -2937,17 +2937,17 @@ color: blue;
 }
 
 .asi{
-    border:solid black;
-    width: 40%;
+    /*border:solid yellow;*/
+    width: 32%;
     height: 50%;
-    margin-left: 8%;
-    margin-top: 0%;
+    margin-left: 5%;
+    margin-top: 3%;
     padding-top: 3%;
     display: flex;
     flex-direction: column;  
 }
 .conttexte2{
-    border:solid black;
+    /*border:solid black;*/
     width:auto;
     height:70px;
     margin-top: -10%;
@@ -2958,18 +2958,18 @@ color: blue;
    font-size: 140%;
 }
 .context2 h4{
-    font-size: 90%;
-    line-height: 90%;
+    font-size: 120%;
+    line-height: 100%;
 }
 
 .noche2{
-    border:solid black;
-    font-size: 13px;
-    margin-top: -10%;
+    /*border:solid black;*/
+    font-size: 19px;
+    margin-top: -8%;
 }
 
 .contstar2{
-    margin-top: 10%;
+    margin-top: 25%;
     display: flex;
     flex-direction: row;
    
@@ -2981,22 +2981,27 @@ color: blue;
 
 
 .heb{
-    
+    /*border:solid yellowgreen;*/
+    font-size:190%;
     width: auto;
     height: 30px;
     padding-top: 25px;
-    margin-left: -2%;
+    margin-left: 0%;
     margin-top: 1px;
     padding-left: 20px;
     margin-bottom: 1px;
     padding-bottom: auto;
     
 }
+/* .heb h2 {
+    font-size:200%;
+    ne veux pas 
+}*/
 
 
 #hebergement{
     min-width: 426px;
-    max-width: 767px;
+    max-width: 768px;
     width: 100%;
     height: auto;
     border-radius: 0%;
@@ -3011,7 +3016,7 @@ color: blue;
     flex-direction: row;
     flex-wrap: wrap;
    margin-left: 1%;
-    padding-bottom: 10%;
+    padding-bottom: 6%;
     width: 100%;
 
 }
@@ -3020,7 +3025,7 @@ figure{
     margin-left:0 ;
     margin-right:0;
     /*min-width: 426px;
-    max-width: 767px;*/
+    max-width: 768px;*/
     width: 100%;
 }
 
@@ -3043,6 +3048,7 @@ a{
     box-shadow: #F2F2F2;
     border-radius: 1em 1em 1em 1em;
     width: 98%;
+    height: 320px;
     margin-right: 2%;
     display:flex;  
     justify-content: space-between;
@@ -3054,26 +3060,29 @@ a{
 .contimg1{
    
     border-radius: 1em 1em 0em 0em;
-    width: 25em;
-    height: 130px;
-    margin-top: -15px;
+    width: /*45em*/99%;
+    height: 220px;
+    margin-left: 4px;
+    margin-top: -13px;
     display:flex;
     justify-content: flex-start;
     align-items: center;
-    object-fit: cover;
+    object-fit:cover;
     }
-
 
 
 .conttexte1{
     color:black;
-    font-size: 130%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 
 }
+.conttexte1 h3{
+    font-size: 110%;
+}
+
 .contstar1{
     width: 1%;
     height: 1%;
@@ -3091,29 +3100,28 @@ a{
 /* chez amina*/
 
 .noche{
-    font-size: 13px;
-
+    font-size: 18px;
 }
 
 /* couleur picto star */
-.grisstar{
-    
-    font-size: 10px;
+.grisstar{   
+font-size: 12px;
 color:grey; 
 
 }
 
 .bluestar{
-    font-size: 10px;
+font-size: 12px;
 color: blue;
 }
 
 .afiplus{
     color:black;
+    font-size: 170%;
     margin-left: 3%;
-    
-    
+      
 }
+
 
 /* acitivité */
 
@@ -3131,7 +3139,8 @@ color: blue;
 #activites{
     margin-left: 2%;
     margin-right: 10%;
-    margin-bottom: 8%;   
+    margin-bottom: 8%; 
+    font-size: 180%;  
 }
 
 /*conteneur 1 global 1*/
@@ -3338,7 +3347,7 @@ color: blue;
 #foot{
     background-color: #F2F2F2;
     margin:0;
-    max-width: 767px;
+    max-width: 768px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -3364,7 +3373,7 @@ color: blue;
 
 /* pour tablette */
 
-@media(min-width:768px) and (max-width:1088px){
+@media(min-width:769px) and (max-width:1088px){
 
     h2{
         font-size: 120%;
