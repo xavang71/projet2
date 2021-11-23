@@ -2489,37 +2489,33 @@ color: blue;
     .head1{
        
         width: 100%;
+        max-width: 768px;
         height: 90px;
         margin-top: 5%;
-        /*display: grid;
-       /* border:solid #0065FC;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: repeat(2, 50%);
-        grid-column-gap: 1px;
-        grid-row-gap: 10%; 
-       grid-template-areas: 
-        ""
-        "heberg" */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 50px;
         
-        
+       
     }
 
     .logo{
-        width: 200%;
-        height: 75%;
-        margin-left: -18%;
+        width: 60%;
+        height: 65%;
+       /* margin-left: -18%;
         display:flex;
         justify-content: flex-start; 
-        align-items: flex-start;
-       /* grid-area: logo;
+        align-items: flex-start;*/
         grid-column-start:1 ;
         grid-column-end:2 ;
         grid-row-start:1 ;
-        grid-row-end: 2 ;*/
+        grid-row-end: 2 ;
                
     } 
     #navig{
-    display:flex;
+   /* display:flex;
     flex-wrap:wrap-reverse;
     width: 100%;
     margin-left: 15%;
@@ -2543,15 +2539,15 @@ color: blue;
    
 
     .blulienb{
-         /*grid-area: inscrire 2/2/2/2;*/
        margin-left: 46%;
         margin-top: -20%;
         font-size: 130%;
         color: #0065FC;
-       /* grid-column-start:2 ;
-        grid-column-end:3 ;
-        grid-row-start: 2 ;
-        grid-row-end:4;*/  
+
+       grid-column-start:2 ;
+        grid-column-end:2;
+        grid-row-start: 1 ;
+        grid-row-end:1;  
     }
 
 
@@ -2560,11 +2556,11 @@ color: blue;
         margin-left:20%;
        margin-right: 290%;
         display:flex;
-        align-items: flex-start;
+        align-items: flex-start;*/
         grid-column-start:1 ;
         grid-column-end:2 ;
         grid-row-start:1 ;
-        grid-row-end:3 ;*/
+        grid-row-end:3 ;
 
     }
 
@@ -2589,11 +2585,11 @@ color: blue;
         margin-top: 20%;
         display: flex;
         align-items: center;*/
-        /*grid-column-start:2 ;
-        /*grid-column-end:3 ;
+        grid-column-start:2 ;
+        grid-column-end:3 ;
         grid-row-start:2;
-        grid-row-end:4 ;*/
-        /*grid-column: 1; grid-row: 2;*/
+        grid-row-end:4 ;
+       
         
     }
     .blulien a {
@@ -2897,7 +2893,7 @@ color: blue;
     max-width: 768px;
     width: 100%;
     margin: 0;
-    height: 120vh;
+    height: 100vh;
 }
 
 .poptext{
@@ -2955,7 +2951,7 @@ color: blue;
    padding-bottom: 5%;
    display:flex;
    flex-wrap: wrap;
-   font-size: 140%;
+   font-size: 130%;
 }
 .context2 h4{
     font-size: 120%;
@@ -3131,7 +3127,7 @@ color: blue;
     display: flex;
     flex-direction: column;
     vertical-align: center;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 /* text activités*/
@@ -3139,28 +3135,28 @@ color: blue;
 #activites{
     margin-left: 2%;
     margin-right: 10%;
-    margin-bottom: 8%; 
+    margin-bottom: 5%; 
     font-size: 180%;  
 }
 
 /*conteneur 1 global 1*/
 .context3{
     width: 100%;
+    max-width: 768px;
     height: auto;
     margin-left: 1%;
     margin-bottom: 3%;
     margin-top: 2%;
     display: flex;
     flex-direction: column;
-   
-
 }
 /*conteneur interne 1 */
 .contint1{ 
     width: 100%;
-    margin-top:3% ;
+    max-width: 768px;
+    /*margin-top:3% ;
     margin-bottom: 3%;
-    margin-bottom:-5% ;
+    /*margin-bottom:-5%;*/
     display: flex;
     flex-direction: column;
 }
@@ -3172,20 +3168,24 @@ color: blue;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
     box-shadow: #F2F2F2;
-    width: 96%;
-    height: 12em;
+    width: 99%;
+    height: /*12em*/318px;
 }
 
 .vieuxport {
     border-radius: 1em 1em 0em 0em;
     width: 100%;
-    height: 150px; 
+    /*margin-top: 1%;*/
+    height: /*150px*/250px; 
     object-fit: cover;
- }   
+ }  
+
  .vp{
      margin-left: 4%;
      margin-bottom: 45%;
+    font-size: 150%; 
  }
+
 
 /* fort */
 .fortact{
@@ -3193,16 +3193,17 @@ color: blue;
     border:solid;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 96%;
-    height: 12em;
-    margin-left: -11%; 
-    margin-bottom: 5%;  
+    width: 99%;
+    height: /*12em*/ 318px;
+    margin-left: -10%; 
+    margin-bottom: 2%; 
+    margin-top: 2%; 
 }
 .fort{
     margin-top: -6%;
     border-radius: 1em 1em 0em 0em;
     width: 100%;
-    height: 150px;
+    height: /*150px*/250px;
     object-fit: cover;
 }
 
@@ -3210,32 +3211,33 @@ color: blue;
 .pom{
     margin-left: 4%;
     margin-top:-2px;
+    font-size: 150%;
 }
 
 
 /* iles */
 .ileact{
-    
     background-color:white;
     border:solid;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 96%;
-    height: 12em;
-    margin-top: -1%;
-    margin-bottom: 5%;
-    margin-left:-12%;
+    width: 99%;
+    height: /*12em*/318px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: -10%;
 }
 
 .iledefrioul{
     
     border-radius: 1em 1em 0em 0em;
     width: 100%;
-    height: 150px;
+    height: /*150px*/250px;
     object-fit: cover;
 }
 .frio{
     margin-left: 4%;
+    font-size: 150%;
 }
 
 
@@ -3243,6 +3245,7 @@ color: blue;
 
 .context4{
     width: 100%;
+    max-width: 768px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -3273,20 +3276,20 @@ color: blue;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
     box-shadow: #F2F2F2;
-    width: 96%;
-    height: 12em;
+    width: 99%;
+    height: /*12em*/318px;
     margin-bottom: 2%; 
 }
 
 .parcdescalanques{
     border-radius: 1em 1em 0em 0em;
-    
     width: 100%;
-    height: 150px;
+    height: 250px;
     object-fit: cover;
 }
 .cal{
     margin-left: 4%;
+    font-size: 150%;
 }
 
 
@@ -3297,8 +3300,8 @@ color: blue;
     border:solid;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 96%;
-    height: 12em;
+    width: 99%;
+    height: 318px;
     margin-left:-10%;
     margin-bottom: 4%;
 }
@@ -3307,12 +3310,13 @@ color: blue;
 
     border-radius: 1em 1em 0em 0em;
     width: 100%;
-    height: 150px;
+    height: 250px;
     object-fit: cover;
 }
 
 .gard{
     margin-left: 4%;
+    font-size: 150%;
 }
 
 /* parc de longchamps */
@@ -3323,8 +3327,8 @@ color: blue;
     border:solid;
     border-color:#F2F2F2;
     border-radius: 1em 1em 1em 1em;
-    width: 96%;
-    height: 12em;
+    width: 99%;
+    height: 318px;
     margin-left: -10%;
 }
    
@@ -3332,12 +3336,13 @@ color: blue;
    
     border-radius: 1em 1em 0em 0em;
     width: 100%;
-    height: 150px;
+    height: 250px;
     object-fit: cover;
 }  
  
 .long{
     margin-left: 4%;
+    font-size: 150%;
 }
 
 /* fin de section activité */
@@ -3356,14 +3361,20 @@ color: blue;
 }
 .propos{
    margin-left: 3%; 
+   font-size: 150%;
+   line-height: 150%;
 }
 .hebnavfoot{
     margin-left: 3%;
     margin-right: 25%; 
+    font-size: 150%;
+    line-height: 150%;
 }
 .assit{
     margin-left: 3%;
     margin-bottom: 5%;
+    font-size: 150%;
+    line-height: 150%;
 }
 
 
