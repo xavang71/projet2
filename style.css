@@ -2646,7 +2646,7 @@ color: blue;
     border-color:#F2F2F2;
     border-right: #0065FC;
     min-width:auto;
-    width: 80%;
+    width: 75%;
     height:70px;
     margin-left: 2%;
     display:flex;
@@ -2672,7 +2672,7 @@ color: blue;
     }
 
     #recherche {
-    width: 390px;
+    width: 380px;
     border:none;
     display:flex;
     align-items: center;
@@ -2695,7 +2695,7 @@ color: blue;
     .bouton{
         width: 5em;
         height: auto;
-        margin-right: -45%;
+        margin-right: -49%;
         padding-bottom: 10px;
         border-radius: 10px 10px 10px 10px;
         display: flex;
@@ -2728,7 +2728,6 @@ color: blue;
     /* bloc filtre */ 
 
     .fil{
-        border:solid black;
         min-width: 426px;
         max-width: 767px;
         width: 95%;
@@ -2764,7 +2763,8 @@ color: blue;
     /* modif à revoir pour centraliser icone */
     .fa-child{
         margin-left: -6px;
-   
+   }
+
     .romantique{
         border: solid;
         border-color: #F2F2F2;
@@ -2913,7 +2913,7 @@ color: blue;
     max-width: 768px;
     width: 100%;
     margin: 0;
-    height: 100vh;
+    height: 60em;
 }
 
 .poptext{
