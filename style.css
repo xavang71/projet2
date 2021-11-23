@@ -2515,12 +2515,12 @@ color: blue;
                
     } 
     #navig{
-   /* display:flex;
+   display:flex;
     flex-wrap:wrap-reverse;
     width: 100%;
     margin-left: 15%;
-    /*height: 120px;
-    */
+    height: 120px;
+    
     /*display: grid;
     border:solid #0065FC;
     grid-template-columns: 50% 50%;
@@ -2646,9 +2646,9 @@ color: blue;
     border-color:#F2F2F2;
     border-right: #0065FC;
     min-width:auto;
-    width: 60%;
-    height: 20%;
-    margin-left: -2%;
+    width: 80%;
+    height:70px;
+    margin-left: 2%;
     display:flex;
     flex-direction: row;
     align-items: stretch;
@@ -2659,23 +2659,26 @@ color: blue;
     border-radius: 10px 0em 0em 10px;
     border-color:#F2F2F2;
     background-color: #f2f2f2;
-    width: 3em;
-    margin-left: -190px;
+    width: 5em;
+    margin-left: -270px;
     bottom:1;
     }
     ::placeholder{
     color: black;
     font-weight: bold;
     }
+    .fa-map-marker-alt{
+        font-size: 150%;
+    }
 
     #recherche {
-    width: 290px;
+    width: 390px;
     border:none;
     display:flex;
     align-items: center;
     justify-content: stretch;
     margin-left: 4%;
-    font-size: 140%;
+    font-size: 170%;
     }
 
     .barrech{
@@ -2690,8 +2693,8 @@ color: blue;
 
     /* display none pour recherche */
     .bouton{
-        width: 3em;
-        height: 2,8em;
+        width: 5em;
+        height: auto;
         margin-right: -45%;
         padding-bottom: 10px;
         border-radius: 10px 10px 10px 10px;
@@ -2710,13 +2713,14 @@ color: blue;
     .textrech:after{
         content:"\f002";
         font-family:"Font Awesome 5 Free";
-        font-size: 20px;
+        font-size: 30px;
         margin-left: 0px;
         margin-bottom: 0px;
+        margin-top: 1px;
         color: white;
         visibility: visible;
         position: absolute;
-        top: 1;
+        top: 2;
         left: 1;   
     }
 
